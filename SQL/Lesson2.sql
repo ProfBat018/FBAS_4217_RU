@@ -1,0 +1,121 @@
+--CREATE TABLE Students(
+--	[Id] INT PRIMARY KEY IDENTITY(1, 1),
+--	[Name] NVARCHAR(15) NOT NULL,
+--	[Surname] NVARCHAR(30) NOT NULL, 
+--	[Age] int NOT NULL CHECK ([Age] > 0 AND [Age] <= 200)
+--);
+
+--insert into Students ([Name], [Surname], [Age]) values (N'Denys', N'Brouard', 53);
+--insert into Students ([Name], [Surname], [Age]) values (N'Winni', N'Ody', 18);
+--insert into Students ([Name], [Surname], [Age]) values (N'Federica', N'Smaridge', 14);
+--insert into Students ([Name], [Surname], [Age]) values (N'Faydra', N'Reichhardt', 45);
+--insert into Students ([Name], [Surname], [Age]) values (N'Ethyl', N'Dougan', 17);
+--insert into Students ([Name], [Surname], [Age]) values (N'Tynan', N'Bossom', 143);
+--insert into Students ([Name], [Surname], [Age]) values (N'Ray', N'Giacomoni', 66);
+--insert into Students ([Name], [Surname], [Age]) values (N'Clarie', N'Sharp', 93);
+--insert into Students ([Name], [Surname], [Age]) values (N'Larissa', N'Eden', 182);
+--insert into Students ([Name], [Surname], [Age]) values (N'Elvera', N'Brandino', 113);
+--insert into Students ([Name], [Surname], [Age]) values (N'Barton', N'Lambart', 162);
+--insert into Students ([Name], [Surname], [Age]) values (N'Torey', N'Spoors', 81);
+--insert into Students ([Name], [Surname], [Age]) values (N'Hurlee', N'Reboul', 177);
+--insert into Students ([Name], [Surname], [Age]) values (N'Eilis', N'Elder', 157);
+--insert into Students ([Name], [Surname], [Age]) values (N'Rafaelita', N'Lorenzini', 142);
+--insert into Students ([Name], [Surname], [Age]) values (N'Georgeta', N'MacGillavery', 12);
+--insert into Students ([Name], [Surname], [Age]) values (N'Maible', N'Franzettoini', 62);
+--insert into Students ([Name], [Surname], [Age]) values (N'Keane', N'Cunnell', 50);
+--insert into Students ([Name], [Surname], [Age]) values (N'Livvy', N'Hadlington', 73);
+--insert into Students ([Name], [Surname], [Age]) values (N'Gypsy', N'Strood', 65);
+--insert into Students ([Name], [Surname], [Age]) values (N'Dosi', N'Meas', 197);
+--insert into Students ([Name], [Surname], [Age]) values (N'Paulie', N'Reynault', 195);
+--insert into Students ([Name], [Surname], [Age]) values (N'Rose', 'Douglas', 104);
+--insert into Students ([Name], [Surname], [Age]) values (N'Dierdre', 'Brisard', 196);
+--insert into Students ([Name], [Surname], [Age]) values (N'Catha', N'Dahlbom', 49);
+--insert into Students ([Name], [Surname], [Age]) values (N'Rhoda', N'Wadforth', 148);
+--insert into Students ([Name], [Surname], [Age]) values (N'Gerald', N'Mains', 90);
+--insert into Students ([Name], [Surname], [Age]) values (N'Saraann', N'Winwright', 85);
+--insert into Students ([Name], [Surname], [Age]) values (N'Pen', N'Trump', 161);
+--insert into Students ([Name], [Surname], [Age]) values (N'Margit', N'Vatini', 177);
+--insert into Students ([Name], [Surname], [Age]) values (N'Rhys', N'Symondson', 50);
+--insert into Students ([Name], [Surname], [Age]) values (N'Laural', N'Clapson', 114);
+--insert into Students ([Name], [Surname], [Age]) values (N'Corby', N'Smorthwaite', 130);
+--insert into Students ([Name], [Surname], [Age]) values (N'Nicola', N'Sighart', 191);
+--insert into Students ([Name], [Surname], [Age]) values (N'Clemente', N'Gravenor', 153);
+--insert into Students ([Name], [Surname], [Age]) values (N'Kelcy', N'Kuhle', 191);
+--insert into Students ([Name], [Surname], [Age]) values (N'Malchy', N'Pawelec', 131);
+--insert into Students ([Name], [Surname], [Age]) values (N'Urson', N'Gaine of England', 119);
+--insert into Students ([Name], [Surname], [Age]) values (N'Marcelia', N'Grinsted', 17);
+--insert into Students ([Name], [Surname], [Age]) values (N'Emmi', N'Battey', 196);
+--insert into Students ([Name], [Surname], [Age]) values (N'Valerie', N'Glanister', 11);
+--insert into Students ([Name], [Surname], [Age]) values (N'Hildagard', N'Dripp', 49);
+--insert into Students ([Name], [Surname], [Age]) values (N'Kyrstin', N'Wedmore.', 166);
+--insert into Students ([Name], [Surname], [Age]) values (N'Whitney', N'Birchett', 63);
+--insert into Students ([Name], [Surname], [Age]) values (N'Katy', N'Canero', 162);
+--insert into Students ([Name], [Surname], [Age]) values (N'Donni', N'Sirey', 159);
+--insert into Students ([Name], [Surname], [Age]) values (N'Norry', N'Covotti', 71);
+--insert into Students ([Name], [Surname], [Age]) values (N'Maryann', N'Folkes', 125);
+--insert into Students ([Name], [Surname], [Age]) values (N'Neall', N'Pfaffe', 10);
+--insert into Students ([Name], [Surname], [Age]) values (N'Silvan', N'Geeves', 74);
+--insert into Students ([Name], [Surname], [Age]) values (N'Alon', N'Fishwick', 135);
+--insert into Students ([Name], [Surname], [Age]) values (N'Dru', N'Roote', 29);
+--insert into Students ([Name], [Surname], [Age]) values (N'Hobart', N'Matushevitz', 98);
+--insert into Students ([Name], [Surname], [Age]) values (N'Terrye', N'Chene', 125);
+--insert into Students ([Name], [Surname], [Age]) values (N'Chandra', N'Hightown', 155);
+--insert into Students ([Name], [Surname], [Age]) values (N'Addy', N'Kolinsky', 193);
+--insert into Students ([Name], [Surname], [Age]) values (N'Merilee', N'Beasant', 200);
+--insert into Students ([Name], [Surname], [Age]) values (N'Kassie', N'Sprules', 100);
+--insert into Students ([Name], [Surname], [Age]) values (N'Tadeo', N'Gosse', 164);
+--insert into Students ([Name], [Surname], [Age]) values (N'Carmencita', N'Jeaffreson', 188);
+--insert into Students ([Name], [Surname], [Age]) values (N'Nikolaos', N'Maharry', 93);
+--insert into Students ([Name], [Surname], [Age]) values (N'Barclay', N'Gosnay', 167);
+--insert into Students ([Name], [Surname], [Age]) values (N'Gracia', N'Hellin', 117);
+--insert into Students ([Name], [Surname], [Age]) values (N'Tirrell', N'Molloy', 194);
+--insert into Students ([Name], [Surname], [Age]) values (N'Miquela', N'O''Dunneen', 119);
+--insert into Students ([Name], [Surname], [Age]) values (N'Shel', N'Houlahan', 173);
+--insert into Students ([Name], [Surname], [Age]) values (N'Tawnya', N'Deery', 178);
+--insert into Students ([Name], [Surname], [Age]) values (N'Leanora', N'Roxbee', 165);
+--insert into Students ([Name], [Surname], [Age]) values (N'Regan', N'D''Acth', 39);
+--insert into Students ([Name], [Surname], [Age]) values (N'De', N'Wateridge', 91);
+--insert into Students ([Name], [Surname], [Age]) values (N'Omero', N'Jammes', 197);
+--insert into Students ([Name], [Surname], [Age]) values (N'Pyotr', N'Ugoletti', 167);
+--insert into Students ([Name], [Surname], [Age]) values (N'Claudelle', N'Papis', 184);
+--insert into Students ([Name], [Surname], [Age]) values (N'Hestia', N'Moraleda', 34);
+--insert into Students ([Name], [Surname], [Age]) values (N'Ingram', N'Loidl', 145);
+--insert into Students ([Name], [Surname], [Age]) values (N'Friedrick', N'Goding', 93);
+--insert into Students ([Name], [Surname], [Age]) values (N'Shea', N'Dyott', 15);
+--insert into Students ([Name], [Surname], [Age]) values (N'Jewell', N'Berndtsson', 200);
+--insert into Students ([Name], [Surname], [Age]) values (N'Antonio', N'Hanfrey', 104);
+--insert into Students ([Name], [Surname], [Age]) values (N'Padraig', N'Tetlow', 126);
+--insert into Students ([Name], [Surname], [Age]) values (N'Thomas', N'Wrightim', 18);
+--insert into Students ([Name], [Surname], [Age]) values (N'Olympia', N'Nannizzi', 30);
+--insert into Students ([Name], [Surname], [Age]) values (N'Gussi', N'Fenne', 33);
+--insert into Students ([Name], [Surname], [Age]) values (N'Ynes', N'Moyers', 173);
+--insert into Students ([Name], [Surname], [Age]) values (N'Lion', N'Amorts', 55);
+--insert into Students ([Name], [Surname], [Age]) values (N'Leia', N'Rosewarne', 20);
+--insert into Students ([Name], [Surname], [Age]) values (N'Franz', N'Ashfield', 33);
+--insert into Students ([Name], [Surname], [Age]) values (N'Cynthea', N'Lochran', 138);
+--insert into Students ([Name], [Surname], [Age]) values (N'Paola', N'Physic', 91);
+--insert into Students ([Name], [Surname], [Age]) values (N'Malinde', N'Wyllcock', 73);
+--insert into Students ([Name], [Surname], [Age]) values (N'Melissa', N'Kraft', 21);
+--insert into Students ([Name], [Surname], [Age]) values (N'Cory', N'Roistone', 102);
+--insert into Students ([Name], [Surname], [Age]) values (N'Sebastian', N'Volkers', 6);
+--insert into Students ([Name], [Surname], [Age]) values (N'Luis', N'Murrthum', 178);
+--insert into Students ([Name], [Surname], [Age]) values (N'Burr', N'Teenan', 8);
+--insert into Students ([Name], [Surname], [Age]) values (N'Findlay', N'Fredson', 190);
+--insert into Students ([Name], [Surname], [Age]) values (N'Rayshell', N'Silmon', 104);
+--insert into Students ([Name], [Surname], [Age]) values (N'Melisa', N'Briztman', 36);
+--insert into Students ([Name], [Surname], [Age]) values (N'Lothario', N'Lidgley', 165);
+--insert into Students ([Name], [Surname], [Age]) values (N'Lorain', N'Mitchley', 95);
+
+
+--SELECT * FROM dbo.[Students]
+
+
+--SELECT * FROM Students
+--ORDER BY Age
+
+--SELECT * FROM Students
+--ORDER BY [Name]
+
+--SELECT * FROM Students
+--ORDER BY [Age] DESC
+
