@@ -1,0 +1,15 @@
+C:\Work\FBAS_4217_RU\WPF\Examples\Examples\bin\Debug\net6.0\Examples.exe
+C:\Work\FBAS_4217_RU\WPF\Examples\Examples\bin\Debug\net6.0\Examples.deps.json
+C:\Work\FBAS_4217_RU\WPF\Examples\Examples\bin\Debug\net6.0\Examples.runtimeconfig.json
+C:\Work\FBAS_4217_RU\WPF\Examples\Examples\bin\Debug\net6.0\Examples.dll
+C:\Work\FBAS_4217_RU\WPF\Examples\Examples\bin\Debug\net6.0\Examples.pdb
+C:\Work\FBAS_4217_RU\WPF\Examples\Examples\obj\Debug\net6.0\Examples.csproj.AssemblyReference.cache
+C:\Work\FBAS_4217_RU\WPF\Examples\Examples\obj\Debug\net6.0\Examples.GeneratedMSBuildEditorConfig.editorconfig
+C:\Work\FBAS_4217_RU\WPF\Examples\Examples\obj\Debug\net6.0\Examples.AssemblyInfoInputs.cache
+C:\Work\FBAS_4217_RU\WPF\Examples\Examples\obj\Debug\net6.0\Examples.AssemblyInfo.cs
+C:\Work\FBAS_4217_RU\WPF\Examples\Examples\obj\Debug\net6.0\Examples.csproj.CoreCompileInputs.cache
+C:\Work\FBAS_4217_RU\WPF\Examples\Examples\obj\Debug\net6.0\Examples.dll
+C:\Work\FBAS_4217_RU\WPF\Examples\Examples\obj\Debug\net6.0\refint\Examples.dll
+C:\Work\FBAS_4217_RU\WPF\Examples\Examples\obj\Debug\net6.0\Examples.pdb
+C:\Work\FBAS_4217_RU\WPF\Examples\Examples\obj\Debug\net6.0\Examples.genruntimeconfig.cache
+C:\Work\FBAS_4217_RU\WPF\Examples\Examples\obj\Debug\net6.0\ref\Examples.dll

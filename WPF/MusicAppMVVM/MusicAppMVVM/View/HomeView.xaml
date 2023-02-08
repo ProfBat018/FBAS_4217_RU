@@ -1,0 +1,64 @@
+﻿<Window x:Class="MusicAppMVVM.View.HomeView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MusicAppMVVM.View"
+        xmlns:mD="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:viewModel="clr-namespace:MusicAppMVVM.ViewModel"
+        mc:Ignorable="d"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="14"
+        TextOptions.TextFormattingMode="Ideal"
+        TextOptions.TextRenderingMode="Auto"
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{DynamicResource MaterialDesignFont}"
+        Title="MusicInfo" Height="500" Width="800"
+        Name="MyHomeView"
+        d:DataContext="{d:DesignInstance viewModel:HomeViewModel}"
+       >
+
+    <Grid>
+        <Grid Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.1*"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="5*"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <TextBox Text="{Binding Search}" Grid.Column="0"/>
+                <Button  Grid.Column="1" Command="{Binding SearchCommand}" Style="{StaticResource MaterialDesignFloatingActionMiniDarkButton}">
+                    <mD:PackIcon Kind="Search"/>
+                </Button>
+            </Grid>
+
+            <ListBox
+                Grid.Row="1" 
+                DockPanel.Dock="Bottom"
+                SelectedIndex="{Binding SelectedIndex}"
+                ItemsSource="{Binding Songs}">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <DockPanel>
+                            <StackPanel DockPanel.Dock="Left">
+                                <Label Content="{Binding name}" />
+                                <Label Content="{Binding artists[0].name}" />
+                                <Label Content="{Binding album.name}"/>
+                                <Label Content="{Binding duration}"/>
+                                <Button Command="{Binding DataContext.DownloadCommand, ElementName=MyHomeView}">
+                                    <mD:PackIcon Height="20px" Kind="Download"/>
+                                </Button>
+                            </StackPanel>
+                             <Image Height="50" Width="50" Source="{Binding Path=Img}" DockPanel.Dock="Right"/> 
+                        </DockPanel>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+        </Grid>
+    </Grid>
+</Window>

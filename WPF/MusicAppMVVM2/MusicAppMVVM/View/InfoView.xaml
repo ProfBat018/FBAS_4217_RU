@@ -1,0 +1,68 @@
+﻿<UserControl x:Class="MusicAppMVVM.View.InfoView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MusicAppMVVM.View"
+             mc:Ignorable="d" 
+            xmlns:mD="http://materialdesigninxaml.net/winfx/xaml/themes"
+            xmlns:viewModel="clr-namespace:MusicAppMVVM.ViewModel"
+            TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+            TextElement.FontWeight="Regular"
+            TextElement.FontSize="14"
+            TextOptions.TextFormattingMode="Ideal"
+            TextOptions.TextRenderingMode="Auto"
+            Background="{DynamicResource MaterialDesignPaper}"
+            FontFamily="{DynamicResource MaterialDesignFont}"
+            Height="450" Width="800"
+            Name="MyInfoView"
+            d:DataContext="{d:DesignInstance viewModel:InfoViewModel}">
+
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Label" x:Name="boldLabel">
+                <Setter Property="FontSize" Value="30"/>
+                <Setter Property="FontFamily" Value="Arial"/>
+            </Style>
+        </ResourceDictionary>
+    </UserControl.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Column="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.5*"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <StackPanel Grid.Column="0">
+                <Label Content="Name:"/>
+                <Label Content="Title:"/>
+                <Label Content="Album:"/>
+                <Label Content="Duration:"/>
+            </StackPanel>
+
+            <StackPanel Grid.Column="1">
+                <Label Content="{Binding SongInfo.name}"/>
+                <Label Content="{Binding SongInfo.title}"/>
+                <Label Content="{Binding SongInfo.album.name}"/>
+                <Label Content="{Binding SongInfo.duration}"/>
+            </StackPanel>
+        </Grid>
+
+        <Grid Grid.Column="1">
+            <StackPanel>
+                <Image Height="350" Width="350" Source="{Binding SongInfo.Img}"/>
+                <Button Width="350" Command="{Binding BackCommand}">
+                    <mD:PackIcon Kind="ArrowBack">
+                    </mD:PackIcon>
+                </Button>
+            </StackPanel>
+        </Grid>
+
+    </Grid>
+</UserControl>

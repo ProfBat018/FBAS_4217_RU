@@ -1,0 +1,14 @@
+﻿<Application x:Class="MyCommand.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:view="clr-namespace:MyCommand.View"
+             xmlns:viewModel="clr-namespace:MyCommand.ViewModel"
+             xmlns:local="clr-namespace:MyCommand"
+             StartupUri="../View/HomeWindow.xaml">
+
+    <Application.Resources>
+     <DataTemplate DataType="{x:Type viewModel:HomeViewModel}">
+            <view:HomeWindow></view:HomeWindow>
+     </DataTemplate>
+    </Application.Resources>
+</Application>

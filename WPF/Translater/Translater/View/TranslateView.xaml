@@ -1,0 +1,46 @@
+﻿<UserControl x:Class="Translater.View.TranslateView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Translater.View"
+              xmlns:mD="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="14"
+        TextOptions.TextFormattingMode="Ideal"
+        TextOptions.TextRenderingMode="Auto"
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{DynamicResource MaterialDesignFont}"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.1*"/>
+            <RowDefinition/>
+            <RowDefinition Height="0.1*"/>
+            <RowDefinition Height="0.1*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <DockPanel Grid.Row="0" Grid.Column="0">
+            <Label DockPanel.Dock="Left" Content="From: "/>
+            <ComboBox SelectedValuePath="Key" DisplayMemberPath="Value" SelectedValue="{Binding Model.SelectedFrom}" ItemsSource="{Binding Model.Languages}" IsTextSearchEnabled="True" DockPanel.Dock="Right"/>
+        </DockPanel>
+
+        <DockPanel Grid.Row="0" Grid.Column="1">
+            <Label DockPanel.Dock="Left" Content="To: "/>
+            <ComboBox SelectedValuePath="Key" DisplayMemberPath="Value" SelectedValue="{Binding Model.SelectedTo}" ItemsSource="{Binding Model.Languages}" IsTextSearchEnabled="True" DockPanel.Dock="Right"/>
+        </DockPanel>
+
+        <TextBox Grid.Row="1" Grid.Column="0" Text="{Binding Model.FromText}"/>
+        <TextBox Grid.Row="1" Grid.Column="1" Text="{Binding Model.ToText}"/>
+        <Button Command="{Binding TranslateCommand}" Grid.Row="2" Grid.ColumnSpan="2" Background="{StaticResource MaterialDesignDarkBackground}">
+            <mD:PackIcon Kind="Translate"/>
+        </Button>
+    </Grid>
+</UserControl>
