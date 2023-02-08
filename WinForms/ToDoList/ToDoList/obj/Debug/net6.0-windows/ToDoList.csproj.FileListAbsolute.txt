@@ -1,0 +1,17 @@
+C:\Work\FBAS_4217_RU\WinForms\ToDoList\ToDoList\bin\Debug\net6.0-windows\ToDoList.exe
+C:\Work\FBAS_4217_RU\WinForms\ToDoList\ToDoList\bin\Debug\net6.0-windows\ToDoList.deps.json
+C:\Work\FBAS_4217_RU\WinForms\ToDoList\ToDoList\bin\Debug\net6.0-windows\ToDoList.runtimeconfig.json
+C:\Work\FBAS_4217_RU\WinForms\ToDoList\ToDoList\bin\Debug\net6.0-windows\ToDoList.dll
+C:\Work\FBAS_4217_RU\WinForms\ToDoList\ToDoList\bin\Debug\net6.0-windows\ToDoList.pdb
+C:\Work\FBAS_4217_RU\WinForms\ToDoList\ToDoList\obj\Debug\net6.0-windows\ToDoList.csproj.AssemblyReference.cache
+C:\Work\FBAS_4217_RU\WinForms\ToDoList\ToDoList\obj\Debug\net6.0-windows\ToDoList.Form1.resources
+C:\Work\FBAS_4217_RU\WinForms\ToDoList\ToDoList\obj\Debug\net6.0-windows\ToDoList.csproj.GenerateResource.cache
+C:\Work\FBAS_4217_RU\WinForms\ToDoList\ToDoList\obj\Debug\net6.0-windows\ToDoList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Work\FBAS_4217_RU\WinForms\ToDoList\ToDoList\obj\Debug\net6.0-windows\ToDoList.AssemblyInfoInputs.cache
+C:\Work\FBAS_4217_RU\WinForms\ToDoList\ToDoList\obj\Debug\net6.0-windows\ToDoList.AssemblyInfo.cs
+C:\Work\FBAS_4217_RU\WinForms\ToDoList\ToDoList\obj\Debug\net6.0-windows\ToDoList.csproj.CoreCompileInputs.cache
+C:\Work\FBAS_4217_RU\WinForms\ToDoList\ToDoList\obj\Debug\net6.0-windows\ToDoList.dll
+C:\Work\FBAS_4217_RU\WinForms\ToDoList\ToDoList\obj\Debug\net6.0-windows\refint\ToDoList.dll
+C:\Work\FBAS_4217_RU\WinForms\ToDoList\ToDoList\obj\Debug\net6.0-windows\ToDoList.pdb
+C:\Work\FBAS_4217_RU\WinForms\ToDoList\ToDoList\obj\Debug\net6.0-windows\ToDoList.genruntimeconfig.cache
+C:\Work\FBAS_4217_RU\WinForms\ToDoList\ToDoList\obj\Debug\net6.0-windows\ref\ToDoList.dll
