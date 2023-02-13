@@ -16,9 +16,15 @@ namespace Weather.Data.Models
         [ForeignKey("Forecasts")]
         public int ForecastId { get; set; }
 
-        [Required]
-        public Forecast Forecast { get; set; } = null!;
+        public Forecast Forecast { get; set; }
 
         public DateTime SearchTime { get; set; }
+
+        public override string ToString()
+        {
+            return $"{Id}. {Forecast.name}";
+
+            //return $"{Id}. {Forecast?.name} - {Forecast?.main.temp}℃";
+        }
     }
 }

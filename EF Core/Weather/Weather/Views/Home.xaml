@@ -58,7 +58,7 @@
 
         <StackPanel Grid.Column="0" Grid.Row="1" Orientation="Vertical" HorizontalAlignment="Center">
             <Button
-                Style="{StaticResource LeftSide}">
+                Style="{StaticResource LeftSide}" Click="Button_Click_1">
                 <materialDesign:PackIcon Kind="History" Width="30" Height="25"/>
             </Button>
             <!--<Button
@@ -99,22 +99,7 @@
         </DockPanel>
 
 
-        <ListBox Foreground="#6AC5F0" Margin="0 50 0 0" Grid.Row="1" Grid.Column="1" IsTextSearchEnabled="True">
-            <ListBoxItem>
-                <StackPanel Orientation="Horizontal">
-                    <TextBlock>ListBox Item #1</TextBlock>
-                </StackPanel>
-            </ListBoxItem>
-            <ListBoxItem>
-                <StackPanel Orientation="Horizontal">
-                    <TextBlock>ListBox Item #2</TextBlock>
-                </StackPanel>
-            </ListBoxItem>
-            <ListBoxItem>
-                <StackPanel Orientation="Horizontal">
-                    <TextBlock>ListBox Item #3</TextBlock>
-                </StackPanel>
-            </ListBoxItem>
+        <ListBox x:Name="historyListBox" Foreground="#6AC5F0" Margin="0 50 0 0" Grid.Row="1" Grid.Column="1" IsTextSearchEnabled="True">
         </ListBox>
 
         <Grid Grid.Row="1" Grid.Column="2">
@@ -141,16 +126,16 @@
             <Label Content="{Binding ForecastResult.main.temp, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Grid.Row="1" Grid.Column="1" Foreground="White"/>
 
             <TextBlock Text="Wind speed:" Grid.Row="2" Grid.Column="0" Style="{StaticResource TextLbl}"/>
-            <Label Content="{Binding ForecastResult.wind.speed, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Grid.Row="2" Grid.Column="1"/>
+            <Label Content="{Binding ForecastResult.wind.speed, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Grid.Row="2" Grid.Column="1" Foreground="White"/>
 
             <TextBlock Text="Feels like:" Grid.Row="3" Grid.Column="0" Style="{StaticResource TextLbl}"/>
-            <Label Content="{Binding ForecastResult.main.feels_like, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Grid.Row="3" Grid.Column="1"/>
+            <Label Content="{Binding ForecastResult.main.feels_like, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Grid.Row="3" Grid.Column="1" Foreground="White"/>
 
             <TextBlock Text="Pressure" Grid.Row="4" Grid.Column="0" Style="{StaticResource TextLbl}"/>
-            <Label Content="{Binding ForecastResult.main.pressure, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Grid.Row="4" Grid.Column="1"/>
+            <Label Content="{Binding ForecastResult.main.pressure, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Grid.Row="4" Grid.Column="1" Foreground="White"/>
 
             <TextBlock Text="Humidity:" Grid.Row="5" Grid.Column="0" Style="{StaticResource TextLbl}"/>
-            <Label Content="{Binding ForecastResult.main.humidity, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Grid.Row="5" Grid.Column="1"/>
+            <Label Content="{Binding ForecastResult.main.humidity, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Grid.Row="5" Grid.Column="1" Foreground="White"/>
         </Grid>
     </Grid>
 </Window>

@@ -33,14 +33,14 @@ namespace Weather.Data.Models
         public virtual ICollection<Weather> Weathers { get; set; }
 
 
-        public string _base { get; set; }
+        public string? _base { get; set; }
 
 
 
         [ForeignKey("main")]
         [JsonIgnore]
         public int MainId { get; set; }
-        public Main main { get; set; }
+        public Main main { get; set; } = null!;
 
         public int visibility { get; set; }
 

@@ -1,0 +1,5 @@
+Eager Loading in Entity Framework:
+As we already discussed, Eager loading is a Process where Entity Framework loads the related entities along with the main entity. That means, in this case, Entity Framework will not execute separate SQL queries for loading the related entities. So, all the entities are loaded from the database with a single query and hence saving bandwidth and server CPU time. Entity Framework use JOINs to load the related entities.
+
+Lazy Loading in Entity Framework:
+As we already discussed, Lazy Loading is a Process where Entity Framework loads the related entities on demand. Lazy Loading is the default behavior of Entity Framework. That means the related entities or child entities are loaded only when it is being accessed for the first time. That means in simple words we can say that Lazy loading simply delays the loading of related entities until you specifically request it. 

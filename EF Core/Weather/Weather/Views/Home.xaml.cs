@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Reflection.PortableExecutable;
 using System.Text;
@@ -18,12 +19,18 @@ using Weather.Services;
 
 namespace Weather.Views
 {
-    /// <summary>
-    /// Interaction logic for Home.xaml
-    /// </summary>
-    public partial class Home : Window
+    public partial class Home : Window, INotifyPropertyChanged
     {
-        public Forecast ForecastResult { get; set; } 
+        private Forecast forecastResult;
+        public Forecast ForecastResult 
+        { 
+            get => forecastResult; 
+            set
+            {
+                forecastResult = value;
+                OnPropertyChanged(new PropertyChangedEventArgs("ForecastResult"));
+            }
+        }
         public DeserializeService DeserializeService { get; set; } = new();
         public GetJsonService GetJsonService { get; set; } = new();
 
@@ -50,19 +57,31 @@ namespace Weather.Views
                     MessageBox.Show(ex.Message);
                 }
             }
-            
+
             try
             {
                 ForecastResult = DeserializeService.Deserialize<Forecast>(json);
 
-               
+
                 SaveService.Save(ForecastResult);
-                    
+
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            var data = LoadService.LoadData();
+
+            foreach (var item in data)
+            {
+                historyListBox.Items.Add(item);
+
+            }
+
         }
     }
 }
