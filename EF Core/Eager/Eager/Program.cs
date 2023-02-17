@@ -103,3 +103,23 @@ foreach (var item in result2)
 //}
 
 #endregion
+
+
+using WeatherContext context = new();
+
+
+var result = context.ForecastHistories
+    .Include(x => x.Forecast)
+        .ThenInclude(x => x.Main)
+    .Include(x => x.Forecast)
+        .ThenInclude(x => x.Coord)
+    .Include(x => x.Forecast)
+        .ThenInclude(x => x.Clouds);
+
+//context.Forecasts.Include(x => x.Main);
+
+foreach (var item in result)
+{
+    Console.WriteLine($"Name: {item.Forecast.Name}\tTemp: {item.Forecast.Main.Temp}");
+}
+
