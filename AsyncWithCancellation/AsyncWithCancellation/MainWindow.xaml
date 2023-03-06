@@ -1,0 +1,39 @@
+﻿<Window x:Class="AsyncWithCancellation.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AsyncWithCancellation"
+        mc:Ignorable="d"
+        DataContext="{Binding RelativeSource={RelativeSource Self}}"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+
+        <Label
+            x:Name="counterLabel"
+            HorizontalAlignment="Center"/>
+
+        <ProgressBar 
+            Value="{Binding Counter}"
+            x:Name="counterProgress"
+            Grid.Row="1"/>
+
+        <Button 
+            Click="Start_Click"
+            x:Name="Start"
+            FontSize="32"
+            Grid.Row="2">Start</Button>
+        <Button 
+            Click="Cancel_Click"
+            Name="Cancel"
+            FontSize="32"
+            Grid.Row="3">Cancel</Button>
+    </Grid>
+</Window>
