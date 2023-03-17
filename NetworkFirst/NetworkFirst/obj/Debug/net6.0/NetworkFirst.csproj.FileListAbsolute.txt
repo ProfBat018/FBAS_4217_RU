@@ -1,0 +1,15 @@
+C:\Work\FBAS_4217_RU\NetworkFirst\NetworkFirst\bin\Debug\net6.0\NetworkFirst.exe
+C:\Work\FBAS_4217_RU\NetworkFirst\NetworkFirst\bin\Debug\net6.0\NetworkFirst.deps.json
+C:\Work\FBAS_4217_RU\NetworkFirst\NetworkFirst\bin\Debug\net6.0\NetworkFirst.runtimeconfig.json
+C:\Work\FBAS_4217_RU\NetworkFirst\NetworkFirst\bin\Debug\net6.0\NetworkFirst.dll
+C:\Work\FBAS_4217_RU\NetworkFirst\NetworkFirst\bin\Debug\net6.0\NetworkFirst.pdb
+C:\Work\FBAS_4217_RU\NetworkFirst\NetworkFirst\obj\Debug\net6.0\NetworkFirst.csproj.AssemblyReference.cache
+C:\Work\FBAS_4217_RU\NetworkFirst\NetworkFirst\obj\Debug\net6.0\NetworkFirst.GeneratedMSBuildEditorConfig.editorconfig
+C:\Work\FBAS_4217_RU\NetworkFirst\NetworkFirst\obj\Debug\net6.0\NetworkFirst.AssemblyInfoInputs.cache
+C:\Work\FBAS_4217_RU\NetworkFirst\NetworkFirst\obj\Debug\net6.0\NetworkFirst.AssemblyInfo.cs
+C:\Work\FBAS_4217_RU\NetworkFirst\NetworkFirst\obj\Debug\net6.0\NetworkFirst.csproj.CoreCompileInputs.cache
+C:\Work\FBAS_4217_RU\NetworkFirst\NetworkFirst\obj\Debug\net6.0\NetworkFirst.dll
+C:\Work\FBAS_4217_RU\NetworkFirst\NetworkFirst\obj\Debug\net6.0\refint\NetworkFirst.dll
+C:\Work\FBAS_4217_RU\NetworkFirst\NetworkFirst\obj\Debug\net6.0\NetworkFirst.pdb
+C:\Work\FBAS_4217_RU\NetworkFirst\NetworkFirst\obj\Debug\net6.0\NetworkFirst.genruntimeconfig.cache
+C:\Work\FBAS_4217_RU\NetworkFirst\NetworkFirst\obj\Debug\net6.0\ref\NetworkFirst.dll

@@ -1,0 +1,15 @@
+C:\Work\FBAS_4217_RU\TCP_Client\TCP_Client\bin\Debug\net6.0\TCP_Client.exe
+C:\Work\FBAS_4217_RU\TCP_Client\TCP_Client\bin\Debug\net6.0\TCP_Client.deps.json
+C:\Work\FBAS_4217_RU\TCP_Client\TCP_Client\bin\Debug\net6.0\TCP_Client.runtimeconfig.json
+C:\Work\FBAS_4217_RU\TCP_Client\TCP_Client\bin\Debug\net6.0\TCP_Client.dll
+C:\Work\FBAS_4217_RU\TCP_Client\TCP_Client\bin\Debug\net6.0\TCP_Client.pdb
+C:\Work\FBAS_4217_RU\TCP_Client\TCP_Client\obj\Debug\net6.0\TCP_Client.csproj.AssemblyReference.cache
+C:\Work\FBAS_4217_RU\TCP_Client\TCP_Client\obj\Debug\net6.0\TCP_Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Work\FBAS_4217_RU\TCP_Client\TCP_Client\obj\Debug\net6.0\TCP_Client.AssemblyInfoInputs.cache
+C:\Work\FBAS_4217_RU\TCP_Client\TCP_Client\obj\Debug\net6.0\TCP_Client.AssemblyInfo.cs
+C:\Work\FBAS_4217_RU\TCP_Client\TCP_Client\obj\Debug\net6.0\TCP_Client.csproj.CoreCompileInputs.cache
+C:\Work\FBAS_4217_RU\TCP_Client\TCP_Client\obj\Debug\net6.0\TCP_Client.dll
+C:\Work\FBAS_4217_RU\TCP_Client\TCP_Client\obj\Debug\net6.0\refint\TCP_Client.dll
+C:\Work\FBAS_4217_RU\TCP_Client\TCP_Client\obj\Debug\net6.0\TCP_Client.pdb
+C:\Work\FBAS_4217_RU\TCP_Client\TCP_Client\obj\Debug\net6.0\TCP_Client.genruntimeconfig.cache
+C:\Work\FBAS_4217_RU\TCP_Client\TCP_Client\obj\Debug\net6.0\ref\TCP_Client.dll

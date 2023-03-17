@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "NetworkFirst/1.0.0": {
+        "runtime": {
+          "NetworkFirst.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NetworkFirst/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
