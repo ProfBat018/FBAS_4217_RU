@@ -1,0 +1,15 @@
+C:\Work\FBAS_4217_RU\TcpSoket\TcpListener\bin\Debug\net7.0\TcpListener.exe
+C:\Work\FBAS_4217_RU\TcpSoket\TcpListener\bin\Debug\net7.0\TcpListener.deps.json
+C:\Work\FBAS_4217_RU\TcpSoket\TcpListener\bin\Debug\net7.0\TcpListener.runtimeconfig.json
+C:\Work\FBAS_4217_RU\TcpSoket\TcpListener\bin\Debug\net7.0\TcpListener.dll
+C:\Work\FBAS_4217_RU\TcpSoket\TcpListener\bin\Debug\net7.0\TcpListener.pdb
+C:\Work\FBAS_4217_RU\TcpSoket\TcpListener\obj\Debug\net7.0\TcpListener.csproj.AssemblyReference.cache
+C:\Work\FBAS_4217_RU\TcpSoket\TcpListener\obj\Debug\net7.0\TcpListener.GeneratedMSBuildEditorConfig.editorconfig
+C:\Work\FBAS_4217_RU\TcpSoket\TcpListener\obj\Debug\net7.0\TcpListener.AssemblyInfoInputs.cache
+C:\Work\FBAS_4217_RU\TcpSoket\TcpListener\obj\Debug\net7.0\TcpListener.AssemblyInfo.cs
+C:\Work\FBAS_4217_RU\TcpSoket\TcpListener\obj\Debug\net7.0\TcpListener.csproj.CoreCompileInputs.cache
+C:\Work\FBAS_4217_RU\TcpSoket\TcpListener\obj\Debug\net7.0\TcpListener.dll
+C:\Work\FBAS_4217_RU\TcpSoket\TcpListener\obj\Debug\net7.0\refint\TcpListener.dll
+C:\Work\FBAS_4217_RU\TcpSoket\TcpListener\obj\Debug\net7.0\TcpListener.pdb
+C:\Work\FBAS_4217_RU\TcpSoket\TcpListener\obj\Debug\net7.0\TcpListener.genruntimeconfig.cache
+C:\Work\FBAS_4217_RU\TcpSoket\TcpListener\obj\Debug\net7.0\ref\TcpListener.dll

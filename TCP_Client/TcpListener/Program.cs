@@ -7,7 +7,7 @@ using System.Text;
 // 127.0.0.1 - localhost 
 
 
-TcpListener listener = new(IPAddress.Parse("127.0.0.1"), 12001);
+TcpListener listener = new(IPAddress.Parse("127.0.0.1"), 12001); // класс, который слушает подключения 
 
 
 listener.Start(); // Start server 
@@ -30,18 +30,10 @@ while (true)
 
         Console.WriteLine($"Client Name: {clientName}\t{client.Connected}");
 
-        for (int i = 0; i < clientName.Length; i++)
-        {
-            Console.Write((int)clientName[i]);
-        }
-
         while (true)
         {
             Console.WriteLine("Enter message: ");
             string message = Console.ReadLine();
-
-            Console.WriteLine(clientName.Length);
-
             string data = clientName + ": " + message;
             var bytes = Encoding.Unicode.GetBytes(data);
 

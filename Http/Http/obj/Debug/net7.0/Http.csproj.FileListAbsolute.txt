@@ -1,0 +1,15 @@
+C:\Work\FBAS_4217_RU\Http\Http\bin\Debug\net7.0\Http.exe
+C:\Work\FBAS_4217_RU\Http\Http\bin\Debug\net7.0\Http.deps.json
+C:\Work\FBAS_4217_RU\Http\Http\bin\Debug\net7.0\Http.runtimeconfig.json
+C:\Work\FBAS_4217_RU\Http\Http\bin\Debug\net7.0\Http.dll
+C:\Work\FBAS_4217_RU\Http\Http\bin\Debug\net7.0\Http.pdb
+C:\Work\FBAS_4217_RU\Http\Http\obj\Debug\net7.0\Http.csproj.AssemblyReference.cache
+C:\Work\FBAS_4217_RU\Http\Http\obj\Debug\net7.0\Http.GeneratedMSBuildEditorConfig.editorconfig
+C:\Work\FBAS_4217_RU\Http\Http\obj\Debug\net7.0\Http.AssemblyInfoInputs.cache
+C:\Work\FBAS_4217_RU\Http\Http\obj\Debug\net7.0\Http.AssemblyInfo.cs
+C:\Work\FBAS_4217_RU\Http\Http\obj\Debug\net7.0\Http.csproj.CoreCompileInputs.cache
+C:\Work\FBAS_4217_RU\Http\Http\obj\Debug\net7.0\Http.dll
+C:\Work\FBAS_4217_RU\Http\Http\obj\Debug\net7.0\refint\Http.dll
+C:\Work\FBAS_4217_RU\Http\Http\obj\Debug\net7.0\Http.pdb
+C:\Work\FBAS_4217_RU\Http\Http\obj\Debug\net7.0\Http.genruntimeconfig.cache
+C:\Work\FBAS_4217_RU\Http\Http\obj\Debug\net7.0\ref\Http.dll
