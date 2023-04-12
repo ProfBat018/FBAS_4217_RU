@@ -1,0 +1,36 @@
+/*h1 {*/
+/*    font-family: Calibri;*/
+/*}*/
+
+/*
+display: flex;
+Это свойство позволяет расположить элементы в ряд, а не в столбик.
+Более подробно про него можно почитать тут: https://developer.mozilla.org/ru/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox
+Также можно посмотреть примеры использования на сайте https://flexboxfroggy.com/
+Более того, он позволяет менять порядок элементов внутри контейнера, что может быть полезно в некоторых случаях.
+*/
+body {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+navbar {
+    display: flex;
+}
+
+.heading-class {
+    font-family: Calibri;
+}
+
+.navbar-items {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    list-style-type: none;
+}
+
