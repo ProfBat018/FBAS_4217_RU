@@ -1,0 +1,65 @@
+@import "colors";
+
+.navbar {
+  margin-top: 25px;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+
+  .nav-logo {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    * {
+      padding: 5%;
+    }
+  }
+
+
+  .nav-center {
+    display: flex;
+    justify-items: center;
+    width: 50%;
+
+    .nav-items {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      display: flex;
+      align-items: center;
+
+      .nav-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 75px;
+        text-align: center;
+        font-size: 18px;
+        transition: all 0.2s ease-in-out;
+        * {
+          color: $log-cabin;
+          text-decoration: none;
+        }
+      }
+
+    }
+  }
+  .nav-search {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+
+    a {
+      text-align: center;
+    }
+  }
+}
+
+.hovered:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}

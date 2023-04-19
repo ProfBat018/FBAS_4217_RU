@@ -1,0 +1,44 @@
+@import "colors";
+@import "navbar";
+
+body, html {
+  font-family: "Calibri Light";
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.main-div {
+  height: 100%;
+  width: 100%;
+  background-image: url("https://abrakadabra.fun/uploads/posts/2021-12/1640313208_3-abrakadabra-fun-p-doroga-vid-s-boku-3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .container {
+    margin: 0 20% 0 20%;
+    height: 100%;
+
+    .main-container {
+        height: 70%;
+        display: flex;
+    }
+    .container-top {
+       display: flex;
+      justify-content: center;
+    }
+    .bottom-blocks {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .block-item {
+        height: 150px;
+        width: 150px;
+        background-color: black;
+      }
+    }
+  }
+}
+
