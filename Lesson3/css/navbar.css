@@ -36,6 +36,10 @@
   font-size: 18px;
   transition: all 0.2s ease-in-out;
 }
+.navbar .nav-center .nav-items .nav-item * {
+  color: #121611;
+  text-decoration: none;
+}
 .navbar .nav-search {
   width: 10%;
   display: flex;
@@ -49,6 +53,4 @@
 
 .hovered:hover {
   background-color: rgba(0, 0, 0, 0.1);
-}
-
-/*# sourceMappingURL=navbar.css.map */
+}/*# sourceMappingURL=navbar.css.map */
