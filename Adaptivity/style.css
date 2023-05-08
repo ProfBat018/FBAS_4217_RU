@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+}
+
+.container {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.blocks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.blocks h1 {
+  white-space: nowrap;
+}
+
+/*# sourceMappingURL=style.css.map */

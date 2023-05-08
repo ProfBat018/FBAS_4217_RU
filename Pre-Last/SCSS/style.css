@@ -1,3 +1,49 @@
+nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
 h1 {
   color: red;
-}/*# sourceMappingURL=style.css.map */
+}
+
+.body {
+  background-color: blue;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 300px;
+}
+.cards .card-1 {
+  height: 10px;
+  width: 100px;
+  background-color: red;
+}
+.cards .card-2 {
+  height: 20px;
+  width: 100px;
+  background-color: red;
+}
+.cards .card-3 {
+  height: 30px;
+  width: 100px;
+  background-color: red;
+}
+.cards .card-4 {
+  height: 40px;
+  width: 100px;
+  background-color: red;
+}
+
+/*# sourceMappingURL=style.css.map */

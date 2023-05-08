@@ -1,0 +1,38 @@
+@import "style";
+
+    .navbar {
+      height: 75px;
+      background-color: black;
+      color: white;
+      @include flex(row, flex-start, center);
+
+      .navbar-items {
+        width: 40%;
+        @include flex(row, space-evenly, center);
+        list-style-type: none;
+
+        li {
+          @include flex(row, space-evenly, center);
+
+        }
+      }
+    }
+
+
+//@media screen and (min-width: 1008px) {
+//
+//}
+//
+//@media screen and (min-width: 641px) and (max-width: 1007px) {
+//  .navbar {
+//    background-color: red !important;
+//  }
+//}
+//
+//@media screen and (max-width: 640px) {
+//  .navbar {
+//    background-color: blue !important;
+//  }
+//}
+
+

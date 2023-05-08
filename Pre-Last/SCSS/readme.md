@@ -100,6 +100,37 @@ $bg-color: #000;
 
 ### Импорты
 
+Для чего [`import`](https://sass-lang.com/documentation/at-rules/import) вообще нужны
 
+
+### Условия 
+```scss
+// SCSS
+$color: #fff;
+$bg-color: #000;
+.container {
+  @if $color == #fff {
+    color: $color;
+  } @else {
+    color: #000;
+  }
+  @if $bg-color == #000 {
+    background-color: $bg-color;
+  } @else {
+    background-color: #fff;
+  }
+}
+```
+
+### Циклы
+```scss
+// SCSS
+@for $i from 1 through 3 {
+  .item-#{$i} {
+    width: 100px * $i;
+  }
+}
+```
+```css
 
 
