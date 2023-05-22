@@ -5,43 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbbb678a-1f4f-4d5b-a4d3-18dedf583127" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Vanilla/Lesson10/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vanilla/Lesson10/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vanilla/Lesson10/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vanilla/Lesson11/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bootstrap/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson1/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson1/.idea/Lesson1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson1/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson1/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson1/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson1/script.js.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson2/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson2/.idea/Lesson2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson2/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson2/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson2/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson2/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson2/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson2/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson3/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson3/.idea/Lesson3.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson3/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson3/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson3/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson3/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson3/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson3/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson4/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson4/.idea/Lesson4.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson4/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson4/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson4/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson4/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson4/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson4/script.js" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Lesson1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Lesson2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Lesson2/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Lesson2/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vanilla/Lesson11/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vanilla/Lesson11/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vanilla/Lesson11/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vanilla/Lesson11/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vanilla/Lesson12/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vanilla/Lesson12/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vanilla/Lesson12/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/Lesson1/Index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/Lesson1/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Front/Lesson1/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/Lesson1/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front/Lesson1/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/Lesson1/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Roadmaps/frontend.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Roadmaps/frontend.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Roadmaps/javascript.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Roadmaps/javascript.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vanilla/Lesson11/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Vanilla/Lesson11/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,8 +34,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -70,7 +53,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "JS",
-    "last_opened_file_path": "C:/Work/FBMS_1211_RU/Lessons",
+    "last_opened_file_path": "C:/Work/FBAS_4217_RU/Front/Lesson2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -79,6 +62,25 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Work\FBAS_4217_RU\Front\Lesson2" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FBAS_4217_RU/Front/Lesson2/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FBAS_4217_RU/Front/Lesson1/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html (1)" />
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -90,10 +92,22 @@
       <workItem from="1684495703091" duration="22000" />
       <workItem from="1684495726763" duration="7217000" />
       <workItem from="1684674654813" duration="262000" />
+      <workItem from="1684753923696" duration="7986000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/Front/Lesson1/script.js</url>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
