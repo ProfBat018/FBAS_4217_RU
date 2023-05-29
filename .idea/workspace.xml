@@ -4,28 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbbb678a-1f4f-4d5b-a4d3-18dedf583127" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Front/Lesson1/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front/Lesson2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front/Lesson2/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front/Lesson2/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vanilla/Lesson11/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vanilla/Lesson11/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vanilla/Lesson11/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vanilla/Lesson11/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vanilla/Lesson12/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vanilla/Lesson12/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vanilla/Lesson12/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/Lesson1/Index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/Lesson1/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Front/Lesson1/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/Lesson1/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front/Lesson1/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/Lesson1/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Roadmaps/frontend.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Roadmaps/frontend.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Roadmaps/javascript.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Roadmaps/javascript.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vanilla/Lesson11/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Vanilla/Lesson11/readme.md" afterDir="false" />
-    </list>
+    <list default="true" id="bbbb678a-1f4f-4d5b-a4d3-18dedf583127" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,7 +32,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "JS",
-    "last_opened_file_path": "C:/Work/FBAS_4217_RU/Front/Lesson2",
+    "last_opened_file_path": "C:/Work/FBMS_1211_RU/Lessons",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -93,6 +72,7 @@
       <workItem from="1684495726763" duration="7217000" />
       <workItem from="1684674654813" duration="262000" />
       <workItem from="1684753923696" duration="7986000" />
+      <workItem from="1684856355960" duration="61000" />
     </task>
     <servers />
   </component>
@@ -104,7 +84,6 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/Front/Lesson1/script.js</url>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>

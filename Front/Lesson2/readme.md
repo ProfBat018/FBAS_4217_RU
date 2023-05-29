@@ -4,7 +4,6 @@ setTimeout - это функция, которая позволяет вызва
 
 setInterval - это функция, которая позволяет вызвать функцию регулярно, повторяя вызов через определённый интервал времени.
 
-
 # Как работает DNS
 
 DNS - это Domain Name System, система доменных имен. Она позволяет переводить доменные имена в IP адреса и наоборот.
@@ -61,6 +60,41 @@ grandchild.addEventListener('click', () => {
     console.log('grandchild');
 }, true);
 ``` 
+# ShadowDom - это технология, которая позволяет создавать изолированные DOM деревья.
+
+По факту весь наш документ - это одно DOM дерево
+
+Shadow Dom реализуется с помощью тега <shadow-root>
+
+```html
+<template id="my-component">
+    <style>
+        .my-component {
+            background: red;
+        }
+    </style>
+    <div class="my-component">
+        <slot></slot>
+    </div>
+</template>
+
+<my-component>
+    <h1>My Component</h1>
+</my-component>
+
+<script>
+    const template = document.querySelector('#my-component');
+    const shadowRoot = template.content.cloneNode(true);
+    const myComponent = document.querySelector('my-component');
+    myComponent.attachShadow({mode: 'open'}).appendChild(shadowRoot);
+</script>
+
+```
+
+Теперь главный документ и наш компонент имеют разные DOM деревья.
+Это нужно для того чтобы изолировать стили и логику компонента от главного документа.
+
+### Мое мнение. Это абсолютно бесполезная технология. Не вижу в ней никакого смысла. Но она есть и её нужно знать.
 
 
 
