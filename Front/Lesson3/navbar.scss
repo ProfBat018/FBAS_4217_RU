@@ -5,6 +5,38 @@
   flex-direction: $direction;
 }
 
+@mixin blackBtn() {
+    width: 100%;
+    z-index: 2;
+    background-color: #000;
+    background-image: none;
+    border: 1px solid #000;
+    border-top-right-radius: 1px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    overflow: visible;
+    padding: 9px 15px;
+    text-align: center;
+    text-transform: none;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+
+    :focus {
+      text-decoration: none;
+    }
+
+    :hover {
+      text-decoration: none;
+    }
+  }
+
 html {
   font-family: "Calibri";
 }
@@ -93,27 +125,7 @@ html {
       }
 
       #search-btn {
-        width: 100%;
-        z-index: 2;
-        background-color: #000;
-        background-image: none;
-        border: 1px solid #000;
-        border-top-right-radius: 1px;
-        box-sizing: border-box;
-        color: #fff;
-        cursor: pointer;
-        display: inline-block;
-        font-size: 14px;
-        font-weight: 400;
-        overflow: visible;
-        padding: 9px 15px;
-        text-align: center;
-        text-transform: none;
-        touch-action: manipulation;
-        user-select: none;
-        -webkit-user-select: none;
-        vertical-align: middle;
-        white-space: nowrap;
+        @include blackBtn();
 
         :focus {
           text-decoration: none;
@@ -121,16 +133,6 @@ html {
 
         :hover {
           text-decoration: none;
-        }
-
-        :active {
-          box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
-          outline: 0;
-        }
-
-        :not([disabled]):active {
-          box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
-          transform: translate(2px, 2px);
         }
       }
 
@@ -145,6 +147,29 @@ html {
 
 @media screen and (max-width: 768px) {
   .container {
+    .nav-slider {
+      display: flex;
+      visibility: hidden;
+      opacity: 0;
+      transition: visibility 0s, opacity 0.5s linear;
+      .nav-slider-inner {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 75px;
+        background-color: #000;
+        width: 100%;
+        top: 85px;
+        display: flex;
+        ul {
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+            justify-content: space-evenly;
+          list-style-type: none;
+        }
+      }
+    }
 
     .navbar {
       position: relative;
@@ -163,7 +188,6 @@ html {
           object-fit: cover;
         }
       }
-
 
       .nav-list {
         display: none;

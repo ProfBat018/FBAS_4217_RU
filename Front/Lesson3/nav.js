@@ -6,7 +6,6 @@ const navSlider = document.querySelector('.nav-slider');
 let searchToggler = false;
 let menuToggler = false;
 
-
 function slide() {
     if (!searchToggler) {
         searchInput.style.left = '-100%';
@@ -20,17 +19,13 @@ function slide() {
 }
 
 burgerMenu.addEventListener('click', () => {
-
-
     if (!menuToggler) {
         burgerMenu.style.rotate = '90deg';
-        navSlider.style = ` top: 150px;position: absolute;display: flex;`
-        navSlider.querySelector('.nav-slider-inner').style = `display: flex;flex-direction: row;flex-wrap: wrap;`
+        navSlider.style = `visibility: visible;opacity: 1;transition: all 0.5s ease-in-out;`;
         menuToggler = true;
     } else {
         burgerMenu.style.rotate = '0deg';
-        navSlider.style = ` top: 0px;position: absolute;display: none;`
-        navSlider.querySelector('.nav-slider-inner').style = `display: none;`
+        navSlider.style = `visibility: hidden;opacity: 0;transition: all 0.5s ease-in-out;`
         menuToggler = false;
     }
     burgerMenu.style.opacity = '1';

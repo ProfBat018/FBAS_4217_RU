@@ -1,0 +1,13 @@
+input {
+  position: absolute;
+  height: 37px;
+  border: 1px solid #000;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  box-sizing: border-box;
+  width: 100%;
+  color: #2C3E50;
+  font-size: 13px;
+}
+
+/*# sourceMappingURL=form.css.map */

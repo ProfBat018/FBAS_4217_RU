@@ -1,0 +1,21 @@
+@import 'navbar';
+
+.search-area {
+  display: flex;
+  flex-direction: column;
+
+
+  .form-input {
+    height: 37px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%;
+    color: #2C3E50;
+    font-size: 13px;
+  }
+
+  .form-btn {
+    @include blackBtn();
+  }
+}
