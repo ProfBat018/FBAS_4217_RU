@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>JS-Navbar</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/card.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="/resources/merc-logo.png" alt="Logo">
+            </div>
+
+            <a href="#">
+            </a>
+            <ul class="nav-list">
+                <li>
+                    <a href="#">
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span>Info</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span>News</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="search-bar">
+                <input id="search-input" class="search-text" type="text" placeholder="Search">
+                <div id="search-btn">
+                    <i style="font-size: 20px;" class="fa fa-search"></i>
+                </div>
+            </div>
+            <div class="burger-menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+        <div class="nav-slider">
+            <div class="nav-slider-inner">
+                <ul class="nav-slider-list">
+                    <li>
+                        <a href="#">
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>Info</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>News</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container-body">
+            <div class="search-area">
+                <form action="">
+                    <label>Search</label>
+                    <select class="form-input" id="make-combo" name="optionlist ">
+                        <option>option 1</option>
+                        <option>option 2</option>
+                        <option>option 3</option>
+                        <option> option 4</option>
+                        <option> option 5</option>
+                    </select>
+                    <button class="form-btn" type="submit">Search</button>
+                </form>
+            </div>
+
+            <button type="button" id="car-request" class="form-btn">Get Cars</button>
+                <div class="cardContainer inactive">
+                    <div class="card">
+                      <div class="side front">
+                        <div class="img img1"></div>
+                        <div class="info">
+                          <h2>Super S</h2>
+                          <p>A stand-on with an exceptional compact stance. Great for tight spaces and trailering.</p>
+                        </div>
+                      </div>
+                      <div class="side back">
+                        <div class="info">
+                          <h2>At a glance</h2>
+                          <div class="reviews">
+                            <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+                            <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+                            <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+                            <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+                            <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                              <defs><path d="M0 0h24v24H0V0z" id="a"/></defs><clipPath id="b"><use overflow="visible" xlink:href="#a"/></clipPath><path clip-path="url(#b)" d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4V6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"/>
+                            </svg>
+                            <p>23 Reviews</p>
+                          </div>
+                          <ul>
+                            <li>Manage backyard gates with ease with the 36" deck option</li>
+                            <li>Your choice of deck sizes ranging from 36", 48", 52" and 60"</li>
+                            <li>Updated hip bolstering offers superior operator comfort and positioning</li>
+                          </ul>
+                          <div class="btn">
+                            <h4>Learn More</h4>
+                            <svg fill="#333" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"/><path d="M0-.25h24v24H0z" fill="none"/></svg>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div> 
+            </div>
+
+
+        <script src="/script/nav.js"></script>
+        <script src="/script/searchForm.js"></script>
+        <script src="/script/card.js"></script>
+        <script src="https://kit.fontawesome.com/a3d2e49c70.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
