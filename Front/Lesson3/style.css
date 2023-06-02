@@ -26,7 +26,8 @@ html {
 .container .navbar .logo img {
   height: 100%;
   width: 100%;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 .container .navbar .burger-menu {
   display: none;
@@ -101,7 +102,9 @@ html {
   text-align: center;
   text-transform: none;
   touch-action: manipulation;
-  user-select: none;
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
   -webkit-user-select: none;
   vertical-align: middle;
   white-space: nowrap;
@@ -165,7 +168,8 @@ html {
   .container .navbar .logo img {
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .container .navbar .nav-list {
     display: none;
@@ -213,7 +217,8 @@ html {
 .container .navbar .logo img {
   height: 100%;
   width: 100%;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 .container .navbar .burger-menu {
   display: none;
@@ -288,7 +293,9 @@ html {
   text-align: center;
   text-transform: none;
   touch-action: manipulation;
-  user-select: none;
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
   -webkit-user-select: none;
   vertical-align: middle;
   white-space: nowrap;
@@ -352,7 +359,8 @@ html {
   .container .navbar .logo img {
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .container .navbar .nav-list {
     display: none;
@@ -403,7 +411,9 @@ html {
   text-align: center;
   text-transform: none;
   touch-action: manipulation;
-  user-select: none;
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
   -webkit-user-select: none;
   vertical-align: middle;
   white-space: nowrap;
@@ -413,6 +423,4 @@ html {
 }
 .search-area .form-btn :hover {
   text-decoration: none;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
