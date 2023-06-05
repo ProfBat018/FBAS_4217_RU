@@ -393,6 +393,14 @@ html {
   color: #2C3E50;
   font-size: 13px;
 }
+.container-body .search-area form .form-btn-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.container-body .search-area form .form-btn-group button {
+  width: 35%;
+}
 .container-body .search-area .form-btn {
   width: 100%;
   z-index: 2;
@@ -423,4 +431,11 @@ html {
 }
 .container-body .search-area .form-btn :hover {
   text-decoration: none;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
 }/*# sourceMappingURL=style.css.map */

@@ -17,6 +17,19 @@
       font-size: 13px;
     }
 
+    form {
+
+    .form-btn-group {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10px;
+
+      button {
+        width: 35%
+      }
+    }
+  }
+
     .form-btn {
       @include blackBtn();
     }

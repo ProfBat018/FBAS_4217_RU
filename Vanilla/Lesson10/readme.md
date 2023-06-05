@@ -190,8 +190,8 @@ const user = {
     }
 }
 
-const sayHi = user.sayHi;
-sayHi(); // undefined
+const borrowedSayHi = user.sayHi;
+borrowedSayHi(); // undefined
 ```
 
 
