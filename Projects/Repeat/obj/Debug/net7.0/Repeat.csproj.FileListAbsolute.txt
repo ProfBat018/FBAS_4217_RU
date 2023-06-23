@@ -1,0 +1,15 @@
+/home/wayne/Work/FBAS_4217_RU/Projects/Repeat/bin/Debug/net7.0/Repeat
+/home/wayne/Work/FBAS_4217_RU/Projects/Repeat/bin/Debug/net7.0/Repeat.deps.json
+/home/wayne/Work/FBAS_4217_RU/Projects/Repeat/bin/Debug/net7.0/Repeat.runtimeconfig.json
+/home/wayne/Work/FBAS_4217_RU/Projects/Repeat/bin/Debug/net7.0/Repeat.dll
+/home/wayne/Work/FBAS_4217_RU/Projects/Repeat/bin/Debug/net7.0/Repeat.pdb
+/home/wayne/Work/FBAS_4217_RU/Projects/Repeat/obj/Debug/net7.0/Repeat.csproj.AssemblyReference.cache
+/home/wayne/Work/FBAS_4217_RU/Projects/Repeat/obj/Debug/net7.0/Repeat.GeneratedMSBuildEditorConfig.editorconfig
+/home/wayne/Work/FBAS_4217_RU/Projects/Repeat/obj/Debug/net7.0/Repeat.AssemblyInfoInputs.cache
+/home/wayne/Work/FBAS_4217_RU/Projects/Repeat/obj/Debug/net7.0/Repeat.AssemblyInfo.cs
+/home/wayne/Work/FBAS_4217_RU/Projects/Repeat/obj/Debug/net7.0/Repeat.csproj.CoreCompileInputs.cache
+/home/wayne/Work/FBAS_4217_RU/Projects/Repeat/obj/Debug/net7.0/Repeat.dll
+/home/wayne/Work/FBAS_4217_RU/Projects/Repeat/obj/Debug/net7.0/refint/Repeat.dll
+/home/wayne/Work/FBAS_4217_RU/Projects/Repeat/obj/Debug/net7.0/Repeat.pdb
+/home/wayne/Work/FBAS_4217_RU/Projects/Repeat/obj/Debug/net7.0/Repeat.genruntimeconfig.cache
+/home/wayne/Work/FBAS_4217_RU/Projects/Repeat/obj/Debug/net7.0/ref/Repeat.dll
