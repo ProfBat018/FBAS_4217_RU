@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "REST", "REST\REST.csproj", "{A933DDC7-66C6-499D-AEAD-3540620A47DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonRepo", "PersonRepo\PersonRepo.csproj", "{5C448B9D-AE37-496A-9B1B-D2B2030DFCE6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A933DDC7-66C6-499D-AEAD-3540620A47DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A933DDC7-66C6-499D-AEAD-3540620A47DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A933DDC7-66C6-499D-AEAD-3540620A47DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A933DDC7-66C6-499D-AEAD-3540620A47DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C448B9D-AE37-496A-9B1B-D2B2030DFCE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C448B9D-AE37-496A-9B1B-D2B2030DFCE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C448B9D-AE37-496A-9B1B-D2B2030DFCE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C448B9D-AE37-496A-9B1B-D2B2030DFCE6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

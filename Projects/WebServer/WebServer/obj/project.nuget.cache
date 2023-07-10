@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "ZiB/3fyzaUqjVPLdpSGNyn8z/XbNIvrboSyfvSgGsgPKv87e0f4hFw1kX1WLXlLEdJT0IuGDnRqIrtvxdMDcpg==",
+  "dgSpecHash": "LNV4Jhh6M+xZ1qBTGpC32zvML84dPuw+5j8q3jFrTtzWxQrbW8RafeczXPuPFSoWZu4mwzoeq59o/8nyvmmaYg==",
   "success": true,
-  "projectFilePath": "/home/wayne/Work/FBAS_4217_RU/Projects/WebServer/WebServer/WebServer.csproj",
+  "projectFilePath": "C:\\Work\\FBAS_4217_RU\\Projects\\WebServer\\WebServer\\WebServer.csproj",
   "expectedPackageFiles": [
-    "/home/wayne/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.0-preview.5.23280.8/microsoft.extensions.dependencyinjection.8.0.0-preview.5.23280.8.nupkg.sha512",
-    "/home/wayne/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0-preview.5.23280.8/microsoft.extensions.dependencyinjection.abstractions.8.0.0-preview.5.23280.8.nupkg.sha512"
+    "C:\\Users\\elvin\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0-preview.5.23280.8\\microsoft.extensions.dependencyinjection.8.0.0-preview.5.23280.8.nupkg.sha512",
+    "C:\\Users\\elvin\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0-preview.5.23280.8\\microsoft.extensions.dependencyinjection.abstractions.8.0.0-preview.5.23280.8.nupkg.sha512"
   ],
   "logs": []
 }

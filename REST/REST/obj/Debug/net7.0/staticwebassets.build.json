@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "GVmLNRMiBzwLNCvc4tPNjYDzuHa10DQlHBPMnzNoYQo=",
+  "Source": "REST",
+  "BasePath": "_content/REST",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

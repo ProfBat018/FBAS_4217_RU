@@ -1,0 +1,28 @@
+﻿@page
+@model CoreFirst.Pages.Facts
+
+@{
+    ViewData["Title"] = "Facts";
+}
+
+<table>
+    <thead>
+        <tr>
+            <th>Status</th>
+            <th>User</th>
+            <th>Text</th>
+            <th>Source</th>
+            <th>Type</th>
+            <th>Created At</th>
+        </tr>
+    </thead>
+    <tbody>
+            <tr>
+                <td>@Model.CatsResponse.user</td>
+                <td>@Model.CatsResponse.text</td>
+                <td>@Model.CatsResponse.source</td>
+                <td>@Model.CatsResponse.type</td>
+                <td>@Model.CatsResponse.createdAt</td>
+            </tr>
+    </tbody>
+</table>
