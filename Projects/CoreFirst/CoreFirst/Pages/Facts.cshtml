@@ -17,12 +17,15 @@
         </tr>
     </thead>
     <tbody>
-            <tr>
-                <td>@Model.CatsResponse.user</td>
-                <td>@Model.CatsResponse.text</td>
-                <td>@Model.CatsResponse.source</td>
-                <td>@Model.CatsResponse.type</td>
-                <td>@Model.CatsResponse.createdAt</td>
-            </tr>
+    @foreach (var item in Model.CatsResponse.results)
+    {
+        <tr>
+            <td>@item.user</td>
+            <td>@item.text</td>
+            <td>@item.source</td>
+            <td>@item.type</td>
+            <td>@item.createdAt</td>
+        </tr>
+    }
     </tbody>
 </table>

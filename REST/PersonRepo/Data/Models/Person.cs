@@ -38,4 +38,8 @@ public class Person : IAcademyEntity
         }
     }
 
+    public override string ToString()
+    {
+        return $"{Name} {Surname} ({Age})";
+    }
 }

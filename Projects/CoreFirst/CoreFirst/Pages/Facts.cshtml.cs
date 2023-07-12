@@ -1,6 +1,9 @@
-﻿using CoreFirst.Models;
+﻿using System.Runtime.InteropServices.JavaScript;
+using CoreFirst.Models;
 using CoreFirst.Services;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Newtonsoft.Json;
 
 namespace CoreFirst.Pages;
 
@@ -15,7 +18,7 @@ public class Facts : PageModel
         _catsFactsService = catsFactsService;
     }
 
-    public async void OnGet()
+    public async Task<IActionResult> OnGet()
     {
         try
         {
@@ -23,7 +26,8 @@ public class Facts : PageModel
         }
         catch (Exception e)
         {
-            Console.WriteLine(e.Message);
+            throw new JsonException(e.Message);
         }
+        return Page();
     }
 }

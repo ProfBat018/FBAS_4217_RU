@@ -12,6 +12,7 @@ namespace WebServer.Services.Classes
     {
         public void ExecuteResult(HttpListenerContext context)
         {
+            context.Response.ContentType = "binary/octet-stream";
             var result = context.Response.StatusCode.ToString();
 
             var bytes = Encoding.UTF8.GetBytes(result);

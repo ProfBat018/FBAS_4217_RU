@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/wayne/Work/FBAS_4217_RU/Projects/MVCWebServer/WebServer/WebServer.csproj": {}
+    "C:\\Work\\FBAS_4217_RU\\Projects\\MVCWebServer\\WebServer\\WebServer.csproj": {}
   },
   "projects": {
-    "/home/wayne/Work/FBAS_4217_RU/Projects/MVCWebServer/WebServer/WebServer.csproj": {
+    "C:\\Work\\FBAS_4217_RU\\Projects\\MVCWebServer\\WebServer\\WebServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/wayne/Work/FBAS_4217_RU/Projects/MVCWebServer/WebServer/WebServer.csproj",
+        "projectUniqueName": "C:\\Work\\FBAS_4217_RU\\Projects\\MVCWebServer\\WebServer\\WebServer.csproj",
         "projectName": "WebServer",
-        "projectPath": "/home/wayne/Work/FBAS_4217_RU/Projects/MVCWebServer/WebServer/WebServer.csproj",
-        "packagesPath": "/home/wayne/.nuget/packages/",
-        "outputPath": "/home/wayne/Work/FBAS_4217_RU/Projects/MVCWebServer/WebServer/obj/",
+        "projectPath": "C:\\Work\\FBAS_4217_RU\\Projects\\MVCWebServer\\WebServer\\WebServer.csproj",
+        "packagesPath": "C:\\Users\\elvin\\.nuget\\packages\\",
+        "outputPath": "C:\\Work\\FBAS_4217_RU\\Projects\\MVCWebServer\\WebServer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/wayne/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\elvin\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -63,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/7.0.105/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,4 +1,5 @@
-﻿using System.Text.Json;
+﻿using System.Text;
+using System.Text.Json;
 using CoreFirst.Models;
 using Newtonsoft.Json;
 
@@ -8,17 +9,21 @@ public class CatsFactsService
 {
     public async Task<CatsFacts> GetFactsAsync()
     {
-        string? result;
+        StringBuilder? result;
         HttpClient client = new();
 
         HttpResponseMessage message = await client.GetAsync("https://cat-fact.herokuapp.com/facts");
 
         if (message.IsSuccessStatusCode)
         {
-            result = await message.Content.ReadAsStringAsync();
+            result = new( await message.Content.ReadAsStringAsync());
+            result.Insert(0, """{ "results": """);
+            result.Append("}");
+
+            var json = result.ToString();
             if (result != null)
             {
-                var res = JsonConvert.DeserializeObject<CatsFacts>(result);
+                var res = JsonConvert.DeserializeObject<CatsFacts>(json);
                 return res;
             }
             throw new NullReferenceException();
