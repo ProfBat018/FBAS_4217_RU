@@ -1,0 +1,60 @@
+@page "/register"
+@model OwnIdentity.Pages.Register
+
+@{
+    ViewData["Title"] = "Register";
+}
+
+<div class="col-md-6 ">
+    <form method="post">
+        <div class="form-outline mb-4">
+            <label class="form-label" asp-for="User.Email">Email address</label>
+            <input type="email" class="form-control" asp-for="User.Email"/>
+            <span class="text-danger" asp-validation-for="User.Email"></span>
+        </div>
+
+        <div class="form-outline mb-4">
+            <label class="form-label" asp-for="User.Password">Password</label>
+            <input type="password" class="form-control" asp-for="User.Password"/>
+            <span class="text-danger" asp-validation-for="User.Password"></span>
+        </div>
+
+        <div class="form-outline mb-4">
+            <label class="form-label" asp-for="User.ConfirmPassword">Confirm</label>
+            <input type="password" class="form-control" asp-for="User.ConfirmPassword"/>
+            <span class="text-danger" asp-validation-for="User.ConfirmPassword"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-block mb-4">Register</button>
+
+        <div class="text-center">
+            <p>Already have an account ? <a asp-page="Login">Log in</a></p>
+        </div>
+    </form>
+</div>
+
+@* *@
+@* <div class="col-md-6 "> *@
+@*     <form method="post"> *@
+@*         <div class="form-outline mb-4"> *@
+@*             <input type="email" name="email" id="mail-input" class="form-control" /> *@
+@*             <label class="form-label" for="mail-input">Email address</label> *@
+@*         </div> *@
+@* *@
+@*         <div class="form-outline mb-4"> *@
+@*             <input type="password" name="password" id="password-input" class="form-control" /> *@
+@*             <label class="form-label" for="password-input">Password</label> *@
+@*         </div> *@
+@*          *@
+@*         <div class="form-outline mb-4"> *@
+@*             <input type="password" name="confirm" id="password-input" class="form-control" /> *@
+@*             <label class="form-label" for="password-input">Confirm</label> *@
+@*         </div> *@
+@* *@
+@*         <button type="submit" class="btn btn-primary btn-block mb-4">Register</button> *@
+@* *@
+@*         <div class="text-center"> *@
+@*             <p>Already have an account ? <a asp-page="Login">Log in</a></p> *@
+@*         </div> *@
+@*     </form> *@
+@* </div> *@

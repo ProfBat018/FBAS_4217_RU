@@ -10,35 +10,186 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4515788d-6ef2-48d6-8e98-c7ef9b3287fb" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../CarsApi/CarsApi/img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CarsApi/CarsApi/readme.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CoreFirst/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CoreFirst/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoreFirst/Models/CatsFacts.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CoreFirst/Models/CatsFacts.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoreFirst/Pages/Facts.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/CoreFirst/Pages/Facts.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoreFirst/Pages/Facts.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CoreFirst/Pages/Facts.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoreFirst/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/CoreFirst/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoreFirst/Services/CatsFactsService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CoreFirst/Services/CatsFactsService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoreFirst/bin/Debug/net7.0/CoreFirst.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CoreFirst/bin/Debug/net7.0/CoreFirst.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoreFirst/bin/Debug/net7.0/CoreFirst.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CoreFirst/bin/Debug/net7.0/CoreFirst.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoreFirst/obj/Debug/net7.0/CoreFirst.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CoreFirst/obj/Debug/net7.0/CoreFirst.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoreFirst/obj/Debug/net7.0/CoreFirst.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CoreFirst/obj/Debug/net7.0/CoreFirst.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoreFirst/obj/Debug/net7.0/ref/CoreFirst.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CoreFirst/obj/Debug/net7.0/ref/CoreFirst.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoreFirst/obj/Debug/net7.0/refint/CoreFirst.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CoreFirst/obj/Debug/net7.0/refint/CoreFirst.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVCWebServer/WebServer/Services/Classes/MyHttpResult.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MVCWebServer/WebServer/Services/Classes/MyHttpResult.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVCWebServer/WebServer/obj/Debug/net7.0/WebServer.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../MVCWebServer/WebServer/obj/Debug/net7.0/WebServer.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVCWebServer/WebServer/obj/Debug/net7.0/WebServer.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../MVCWebServer/WebServer/obj/Debug/net7.0/WebServer.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVCWebServer/WebServer/obj/Debug/net7.0/WebServer.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../MVCWebServer/WebServer/obj/Debug/net7.0/WebServer.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVCWebServer/WebServer/obj/WebServer.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../MVCWebServer/WebServer/obj/WebServer.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVCWebServer/WebServer/obj/WebServer.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../MVCWebServer/WebServer/obj/WebServer.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVCWebServer/WebServer/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../MVCWebServer/WebServer/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVCWebServer/WebServer/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../MVCWebServer/WebServer/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVCWebServer/WebServer/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../MVCWebServer/WebServer/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVCWebServer/WebServer/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../MVCWebServer/WebServer/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../REST/PersonRepo/Data/Models/Person.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../REST/PersonRepo/Data/Models/Person.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../REST/PersonRepo/bin/Debug/net7.0/PersonRepo.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../REST/PersonRepo/bin/Debug/net7.0/PersonRepo.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../REST/PersonRepo/bin/Debug/net7.0/PersonRepo.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../REST/PersonRepo/bin/Debug/net7.0/PersonRepo.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../REST/PersonRepo/obj/Debug/net7.0/PersonRepo.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../REST/PersonRepo/obj/Debug/net7.0/PersonRepo.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../REST/PersonRepo/obj/Debug/net7.0/PersonRepo.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../REST/PersonRepo/obj/Debug/net7.0/PersonRepo.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../REST/PersonRepo/obj/Debug/net7.0/ref/PersonRepo.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../REST/PersonRepo/obj/Debug/net7.0/ref/PersonRepo.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../REST/PersonRepo/obj/Debug/net7.0/refint/PersonRepo.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../REST/PersonRepo/obj/Debug/net7.0/refint/PersonRepo.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoreFirst/CoreFirst.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CoreFirst/CoreFirst.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoreFirst/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CoreFirst/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoreFirst/obj/CoreFirst.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/CoreFirst/obj/CoreFirst.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoreFirst/obj/CoreFirst.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/CoreFirst/obj/CoreFirst.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoreFirst/obj/CoreFirst.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/CoreFirst/obj/CoreFirst.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoreFirst/obj/Debug/net7.0/CoreFirst.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CoreFirst/obj/Debug/net7.0/CoreFirst.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoreFirst/obj/Debug/net7.0/CoreFirst.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CoreFirst/obj/Debug/net7.0/CoreFirst.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoreFirst/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/CoreFirst/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoreFirst/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CoreFirst/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoreFirst/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/CoreFirst/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoreFirst/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/CoreFirst/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoreFirst/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Expression/Expression/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVCWebServer/WebServer/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/.idea/.idea.REST/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/.idea/.idea.REST/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/.idea/.idea.REST/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/.idea/.idea.REST/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/.idea/.idea.REST/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/PersonRepo/Data/DbContexts/PeopleDbContext.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/PersonRepo/Data/Models/Employee.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/PersonRepo/Data/Models/Group.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/PersonRepo/Data/Models/IAcademyEntity.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/PersonRepo/Data/Models/Person.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/PersonRepo/Data/Models/Student.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/PersonRepo/Data/Models/Teacher.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/PersonRepo/Migrations/20230703131503_InitialCreate.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/PersonRepo/Migrations/20230703131503_InitialCreate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/PersonRepo/Migrations/20230705072149_Second.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/PersonRepo/Migrations/20230705072149_Second.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/PersonRepo/Migrations/20230707125103_Third.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/PersonRepo/Migrations/20230707125103_Third.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/PersonRepo/Migrations/20230707130843_Fourth.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/PersonRepo/Migrations/20230707130843_Fourth.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/PersonRepo/Migrations/PeopleDbContextModelSnapshot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/PersonRepo/PersonRepo.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/PersonRepo/Services/Classes/EmployeeService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/PersonRepo/Services/Classes/GroupService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/PersonRepo/Services/Classes/PersonService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/PersonRepo/Services/Classes/StudentService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/PersonRepo/Services/Classes/TeacherService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/PersonRepo/Services/Interfaces/IRepoService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/PersonRepo/bin/Debug/net7.0/PersonRepo.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/PersonRepo/bin/Debug/net7.0/PersonRepo.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/PersonRepo/bin/Debug/net7.0/PersonRepo.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/PersonRepo/bin/Debug/net7.0/PersonRepo.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/PersonRepo/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/PersonRepo/obj/Debug/net7.0/PersonRepo.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/PersonRepo/obj/Debug/net7.0/PersonRepo.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/PersonRepo/obj/Debug/net7.0/PersonRepo.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/PersonRepo/obj/Debug/net7.0/PersonRepo.GlobalUsings.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/PersonRepo/obj/Debug/net7.0/PersonRepo.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/PersonRepo/obj/Debug/net7.0/PersonRepo.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/PersonRepo/obj/Debug/net7.0/PersonRepo.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/PersonRepo/obj/Debug/net7.0/PersonRepo.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/PersonRepo/obj/Debug/net7.0/PersonRepo.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/PersonRepo/obj/Debug/net7.0/PersonRepo.genruntimeconfig.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/PersonRepo/obj/Debug/net7.0/PersonRepo.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/PersonRepo/obj/Debug/net7.0/ref/PersonRepo.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/PersonRepo/obj/Debug/net7.0/refint/PersonRepo.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/PersonRepo/obj/PersonRepo.csproj.EntityFrameworkCore.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/PersonRepo/obj/PersonRepo.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/PersonRepo/obj/PersonRepo.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/PersonRepo/obj/PersonRepo.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/PersonRepo/obj/REST.PersonRepo.EntityFrameworkCore.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/PersonRepo/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/PersonRepo/obj/project.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/PersonRepo/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/PersonRepo/obj/rider.project.restore.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/Controllers/PeopleController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/Controllers/StudentController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/REST.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/Azure.Core.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/Azure.Identity.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/Microsoft.AspNetCore.JsonPatch.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/Microsoft.AspNetCore.OpenApi.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/Microsoft.Bcl.AsyncInterfaces.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/Microsoft.Data.SqlClient.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.SqlServer.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/Microsoft.Extensions.Configuration.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/Microsoft.Extensions.Configuration.FileExtensions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/Microsoft.Extensions.Configuration.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/Microsoft.Extensions.Configuration.UserSecrets.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/Microsoft.Extensions.Configuration.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/Microsoft.Extensions.FileProviders.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/Microsoft.Extensions.FileProviders.Physical.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/Microsoft.Extensions.FileSystemGlobbing.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/Microsoft.Extensions.Primitives.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/Microsoft.Identity.Client.Extensions.Msal.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/Microsoft.Identity.Client.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/Microsoft.IdentityModel.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/Microsoft.IdentityModel.JsonWebTokens.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/Microsoft.IdentityModel.Logging.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/Microsoft.IdentityModel.Tokens.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/Microsoft.OpenApi.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/Microsoft.SqlServer.Server.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/Microsoft.Win32.SystemEvents.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/Newtonsoft.Json.Bson.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/PersonRepo.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/PersonRepo.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/REST.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/REST.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/REST.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/REST.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/REST.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/System.Configuration.ConfigurationManager.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/System.Drawing.Common.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/System.IdentityModel.Tokens.Jwt.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/System.Memory.Data.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/System.Runtime.Caching.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/System.Security.Cryptography.ProtectedData.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/System.Security.Permissions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/System.Text.Encodings.Web.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/System.Text.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/System.Windows.Extensions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/runtimes/browser/lib/net7.0/System.Text.Encodings.Web.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/bin/Debug/net7.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/obj/Debug/net7.0/REST.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/obj/Debug/net7.0/REST.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/obj/Debug/net7.0/REST.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/obj/Debug/net7.0/REST.GlobalUsings.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/obj/Debug/net7.0/REST.MvcApplicationPartsAssemblyInfo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/obj/Debug/net7.0/REST.MvcApplicationPartsAssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/obj/Debug/net7.0/REST.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/obj/Debug/net7.0/REST.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/obj/Debug/net7.0/REST.csproj.CopyComplete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/obj/Debug/net7.0/REST.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/obj/Debug/net7.0/REST.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/obj/Debug/net7.0/REST.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/obj/Debug/net7.0/REST.genruntimeconfig.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/obj/Debug/net7.0/REST.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/obj/Debug/net7.0/apphost.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/obj/Debug/net7.0/ref/REST.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/obj/Debug/net7.0/refint/REST.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/obj/Debug/net7.0/staticwebassets.build.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/obj/Debug/net7.0/staticwebassets/msbuild.build.REST.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.REST.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.REST.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/obj/REST.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/obj/REST.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/obj/REST.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/obj/project.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/obj/rider.project.restore.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/REST/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/obj/LoaderExample.PersonRepo.EntityFrameworkCore.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../REST/obj/REST.PersonRepo.EntityFrameworkCore.targets" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +290,9 @@
       <workItem from="1688987708843" duration="3916000" />
       <workItem from="1688991675253" duration="4647000" />
       <workItem from="1689160571825" duration="2232000" />
-      <workItem from="1689163159484" duration="593000" />
+      <workItem from="1689163159484" duration="2590000" />
+      <workItem from="1689243500124" duration="788000" />
+      <workItem from="1689327639449" duration="640000" />
     </task>
     <servers />
   </component>

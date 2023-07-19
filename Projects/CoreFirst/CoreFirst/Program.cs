@@ -1,9 +1,15 @@
 // Создаем строителя для нашего Web сайта.
 // Он в дальнейшем будет использоваться для создания объекта WebApplication.
 
+using CoreFirst.Models;
 using CoreFirst.Services;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
+
+// builder.Services.AddDbContext<DbContext>(options => 
+    // options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))); 
+
 
 // Добавляем сервис для работы с razor 
 builder.Services.AddRazorPages();
