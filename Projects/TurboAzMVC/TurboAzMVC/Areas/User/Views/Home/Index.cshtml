@@ -1,0 +1,86 @@
+﻿@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Home Page";
+}
+<div class="div-search-container">
+    <div class="container-search">
+        <div class="div-search">
+            <div class="search-make">
+                <select class="form-select make">
+                    <option value="select">Marka</option>
+                    <option value="option1">Option 1</option>
+                    <option value="option2">Option 2</option>
+                    <option value="option3">Option 3</option>
+                </select>
+            </div>
+
+            <div class="search-model">
+                <select class="form-select model">
+                    <option value="select">Model</option>
+                    <option value="option1">Option 1</option>
+                    <option value="option2">Option 2</option>
+                    <option value="option3">Option 3</option>
+                </select>
+            </div>
+
+            <div class="search-radio-buttons">
+                <input type="radio" class="btn-check" name="options-base" id="option5" autocomplete="off" checked>
+                <label class="btn btn-outline-danger" for="option5">Hamisi</label>
+
+                <input type="radio" class="btn-check" name="options-base" id="option6" autocomplete="off">
+                <label class="btn btn-outline-danger" for="option6">Yeni</label>
+
+                <input type="radio" class="btn-check" name="options-base" id="option8" autocomplete="off">
+                <label class="btn btn-outline-danger" for="option8">Surulmus</label>
+            </div>
+
+            <div class="search-city">
+                <select class="form-select city">
+                    <option value="select">Şəhər</option>
+                    <option value="option1">Option 1</option>
+                    <option value="option2">Option 2</option>
+                    <option value="option3">Option 3</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="div-search">
+
+            <div class="search-price">
+                <input class="form-control price-min" type="text" placeholder="Qiymət, min." />
+                <input class="form-control price-max" type="text" placeholder="maks." />
+            </div>
+
+            <div class="div-currency-credit-barter">
+                <select class="select-currency form-select">
+                    <option value="option1">AZN</option>
+                    <option value="option2">USD</option>
+                    <option value="option3">EUR</option>
+                </select>
+            </div>
+
+            <div class="search-year">
+                <select class="min-year form-select">
+                    <option value="select">İl, min.</option>
+                    <option value="option1">Option 1</option>
+                    <option value="option2">Option 2</option>
+                    <option value="option3">Option 3</option>
+                </select>
+
+                <select class="max-year form-select">`
+                    <option value="select">maks.</option>
+                    <option value="option1">Option 1</option>
+                    <option value="option2">Option 2</option>
+                    <option value="option3">Option 3</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="submit-div-right">
+            <button class="btn btn-danger clear-btn">Sıfırla</button>
+            <button class="btn btn-danger more">Daha çox filtr </button>
+
+            <button class="btn btn-danger submit-btn" type="button">Elanları göstər</button>
+        </div>
+    </div>
+</div>

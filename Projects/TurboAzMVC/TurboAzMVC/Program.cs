@@ -1,27 +1,38 @@
+using Microsoft.EntityFrameworkCore;
+using TurboAzMVC.Controllers;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 builder.Services.AddControllersWithViews();
+
+    
+builder.Services.AddDbContext<TurboDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("TurboAzContext")));
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (!app.Environment.IsDevelopment())
-{
-    app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-    app.UseHsts();
-}
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
 
-app.UseAuthorization();
 
-app.MapControllerRoute(
+app.MapAreaControllerRoute(
+    name: "Api",
+    areaName: "Api",
+    pattern: "{area=Api}/{controller=Car}/{action=Index}");
+
+app.MapAreaControllerRoute(
+    name: "Admin",
+    areaName: "Admin",
+    pattern: "{area=Admin}/{controller=Home}/{action=Index}");
+
+app.MapAreaControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    areaName: "User",
+    pattern: "{area=User}/{controller=Home}/{action=Index}");
 
 app.Run();
+
+

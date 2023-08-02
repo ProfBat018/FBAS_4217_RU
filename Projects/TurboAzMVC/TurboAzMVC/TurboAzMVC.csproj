@@ -8,9 +8,34 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Content Include="..\.dockerignore">
-        <Link>.dockerignore</Link>
-      </Content>
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.9" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.9">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.9" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.9">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.8" />
+    </ItemGroup>
+    <ItemGroup>
+      <Folder Include="Areas\Admin\Data\" />
+      <Folder Include="Areas\Admin\Models\" />
+      <Folder Include="Areas\User\Data\" />
+      <Folder Include="Areas\User\Views\" />
+      <Folder Include="Migrations\" />
+      <Folder Include="wwwroot\assets\" />
+      <Folder Include="wwwroot\lib\" />
+    </ItemGroup>
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Views\Home\Index.cshtml" />
+    </ItemGroup>
+    <ItemGroup>
+      <AdditionalFiles Include="Areas\User\Views\Home\Index.cshtml" />
+      <AdditionalFiles Include="Areas\User\Views\Shared\_Layout.cshtml" />
+      <AdditionalFiles Include="Areas\User\Views\Shared\_ViewImports.cshtml" />
     </ItemGroup>
 
 </Project>

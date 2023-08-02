@@ -1,0 +1,17 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #ca1016;
+}
+nav img {
+  height: 30px;
+}
+nav .avatar-dropdown {
+  margin-right: 50px;
+  display: flex;
+  overflow: hidden;
+}/*# sourceMappingURL=main.css.map */

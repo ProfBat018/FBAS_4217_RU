@@ -1,0 +1,20 @@
+﻿html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #ca1016;
+
+  img {
+    height: 30px;
+  }
+
+  .avatar-dropdown {
+    margin-right: 50px;
+    display: flex;
+    overflow: hidden;
+  }
+}
+

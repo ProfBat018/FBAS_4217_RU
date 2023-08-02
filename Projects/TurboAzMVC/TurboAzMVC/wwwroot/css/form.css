@@ -1,0 +1,50 @@
+.div-search-container {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 30%;
+  width: 100%;
+}
+.div-search-container .container-search {
+  height: 100%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.div-search-container .div-search {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.div-search-container .search-radio-buttons {
+  display: flex;
+  height: 70%;
+  width: 100%;
+}
+.div-search-container .div-search > div {
+  height: 100%;
+  width: 20%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.div-search-container .div-search > div select {
+  height: 70%;
+  width: 100%;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 16px;
+}
+.div-search-container .div-search > div input {
+  height: 70%;
+  width: 100%;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+/*# sourceMappingURL=form.css.map */

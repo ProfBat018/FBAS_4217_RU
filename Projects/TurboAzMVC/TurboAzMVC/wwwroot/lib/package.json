@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.1",
+    "fontawesome": "^5.6.3",
+    "jquery": "^3.7.0"
+  }
+}
