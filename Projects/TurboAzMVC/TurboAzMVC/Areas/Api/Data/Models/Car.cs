@@ -11,7 +11,7 @@ public class Car
     
     public string ImgUrl { get; set; }
     public DateTime ProductionDate { get; set; }
-    public float Price { get; set; }
+    public decimal Price { get; set; }
     
     
     [RegularExpression(@"^[A-Z0-9]{17}$")]

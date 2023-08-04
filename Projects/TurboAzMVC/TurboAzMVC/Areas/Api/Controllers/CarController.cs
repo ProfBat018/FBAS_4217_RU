@@ -1,41 +1,94 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using DbbForTurboAz.Model;
-using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json;
 
-namespace TurboAzMVC.Areas.Api.Controllers;
-
-[Area("Api")]
-[AllowAnonymous]
-public class CarController : Controller
+namespace TurboAzMVC.Areas.Api
 {
-    private TurboDbContext _context;
-    public CarController(TurboDbContext context)
-    {
-        _context = context;
-    }
+    [ApiController]
+    [Area("Api")]
     
-    [HttpGet]
-    public IActionResult Index()
+    public class CarController : ControllerBase
     {
-        return Json("Hello from CarController");
-    }
-    
-    [HttpPost]
-    public async Task<IActionResult> AddCar([FromBody] Car car)
-    {
-        try
+        private TurboDbContext _context;
+
+        public CarController(TurboDbContext context)
         {
-            await _context.Cars.AddAsync(car);
-            await _context.SaveChangesAsync();
+            Console.WriteLine("WebApi Controller");
+            _context = context;
         }
-        catch (Exception ex)
+
+        [HttpGet("GetAllCars")]
+        [Route("{area}/{controller}/GetAllCars")]
+        public async Task<IActionResult> GetAllCarsAsync()
         {
-            return RedirectToPage("Error", new ErrorViewModel()
-            {
-                Message = ex.Message,
-                StackTrace = ex.StackTrace
-            });
+            var cars = await _context.Cars.ToListAsync();
+            return Ok(cars);
         }
-        return Ok("success");
+
+        [HttpGet("GetCarById")]
+        [Route("{area}/{controller}/GetCarById/{id}")]
+        public async Task<IActionResult> GetCarByIdAsync(int id)
+        {
+            var cars = await _context.Cars
+                .Where(x => x.Id == id)
+                .Include(x => x.City)
+                .Include(x => x.Color)
+                .Include(x => x.BodyType)
+                .Include(x => x.FuelType)
+                .Include(x => x.ShowRoom)
+                .Include(x => x.WheelDriveType)
+                .Include(x => x.WheelDriveType)
+                .Select(x => new
+                {
+                    Make = x.Make,
+                    Model = x.Model,
+                    Year = x.ProductionDate,
+                    Price = x.Price,
+                    City = x.City.Name,
+                    Color = x.Color.Name,
+                    BodyType = x.BodyType.Name,
+                    FuelType = x.FuelType.Name,
+                    WheelDriveType = x.WheelDriveType.Name,
+                    TransmissionType = x.TransmissionType.Name,
+                    ShowRoom = x.ShowRoom.Name,
+                    PhoneNumber = x.PhoneNumber,
+                    Mileage = x.Mileage,
+                    EngineVolume = x.EngineVolume,
+                    HorsePower = x.HorsePower,
+                    PassengerCount = x.PassengerCount,
+                    VIN = x.VIN,
+                    ImgUrl = x.ImgUrl
+                })
+                .ToListAsync();
+
+            return Ok(cars);
+        }
+
+
+        // [HttpPost]
+        // public async Task<IActionResult> AddCar([FromBody] Car car)
+        // {
+        //     try
+        //     {
+        //         await _context.Cars.AddAsync(car);
+        //         await _context.SaveChangesAsync();
+        //     }
+        //     catch (Exception ex)
+        //     {
+        //         return RedirectToPage("Error", new ErrorViewModel()
+        //         {
+        //             Message = ex.Message,
+        //             StackTrace = ex.StackTrace
+        //         });
+        //     }
+        //
+        //     return Ok("success");
+        // }
     }
 }
