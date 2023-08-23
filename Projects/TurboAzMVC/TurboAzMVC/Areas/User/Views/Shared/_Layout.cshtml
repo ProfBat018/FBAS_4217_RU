@@ -1,4 +1,12 @@
-﻿<!DOCTYPE html>
+﻿﻿@using System.Globalization
+@using Microsoft.AspNetCore.Http.Features
+@using Microsoft.AspNetCore.Localization
+@using Microsoft.AspNetCore.Mvc.Localization
+
+@inject IViewLocalizer Localizer
+
+
+<!DOCTYPE html>
 <html>
 <head>
     <title>@ViewData["Title"]</title>
@@ -9,7 +17,7 @@
         href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
         rel="stylesheet"/>
     <link
-        href="/lib/node_modules/bootstrap/dist/css/bootstrap.min.css"
+        href="/lib/node_modules/mdb-ui-kit/css/mdb.min.css"
         rel="stylesheet"/>
 
     <link rel="stylesheet" href="css/main.css"/>
@@ -18,7 +26,7 @@
     <script
         defer
         type="text/javascript"
-        src="/lib/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        src="/lib/node_modules/mdb-ui-kit/js/mdb.min.js"></script>
 
     <script defer
             type="text/javascript"
@@ -48,11 +56,9 @@
                 <img src="assets/turbo-az-logo.svg"/>
             </a>
 
-            @* class="navbar-nav me-auto mb-2 mb-lg-0" *@
-
             <ul class="navbar-nav d-flex align-items-left">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Dashboard</a>
+                        <a class="nav-link" href="#">@Localizer["Dashboard"]</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Team</a>
@@ -76,6 +82,32 @@
                             </li>
                             <li>
                                 <a class="dropdown-item" href="#">Logout</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="btn btn-light dropdown-toggle" href="#" id="navbarDropdownMenu" role="button" aria-expanded="false">
+                            <i class="flag @ViewData["lang"]"></i>
+                        </button>
+                        <ul
+                            class="dropdown-menu dropdown-menu-lg-end"
+                            aria-labelledby="navbarDropdownMenu">
+                            <li>
+                                <a asp-controller="Home" asp-action="ChangeLang">
+                                    <i class="flag flag-us"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a asp-controller="Home" asp-action="ChangeLang">
+                                    <i class="flag flag-az"></i>
+                                </a>
+                            </li>
+                            <li>
+                                    <a asp-controller="Home" asp-action="Index" asp-route-lang="ru">
+                                    <i class="flag flag-ru"></i>
+                                </a>
                             </li>
                         </ul>
                     </div>

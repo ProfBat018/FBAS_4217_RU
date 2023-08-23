@@ -1,13 +1,21 @@
-﻿@{
+﻿@using Microsoft.AspNetCore.Mvc.Localization;
+@using Microsoft.EntityFrameworkCore.Metadata.Internal
+
+
+@inject IViewLocalizer Localizer;
+@{
     Layout = "_Layout";
+    // ViewBag.Lang = "flag-az";
+    ViewData["lang"] = "flag-az";
     ViewData["Title"] = "Home Page";
 }
+
 <div class="div-search-container">
     <div class="container-search">
         <div class="div-search">
             <div class="search-make">
                 <select class="form-select make">
-                    <option value="select">Marka</option>
+                    <option value="select">@Localizer["Marka"]</option>
                     <option value="option1">Option 1</option>
                     <option value="option2">Option 2</option>
                     <option value="option3">Option 3</option>
@@ -47,8 +55,8 @@
         <div class="div-search">
 
             <div class="search-price">
-                <input class="form-control price-min" type="text" placeholder="Qiymət, min." />
-                <input class="form-control price-max" type="text" placeholder="maks." />
+                <input class="form-control price-min" type="text" placeholder="Qiymət, min."/>
+                <input class="form-control price-max" type="text" placeholder="maks."/>
             </div>
 
             <div class="div-currency-credit-barter">

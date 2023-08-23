@@ -1,0 +1,14 @@
+﻿@page "/Quotes"
+@model QuotesHomework.Pages.QuotesModel
+
+@{
+ViewData["Title"] = "Quotes";
+}
+
+<h1>Quotes</h1>
+
+<form method="post" asp-action="GetData">
+    <label>Author: </label>
+    <input type="text" name="author" asp-for="@Model.Author"/>
+    <button type="submit">Get Quotes</button>
+</form>

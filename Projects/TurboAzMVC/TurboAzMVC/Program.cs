@@ -1,10 +1,39 @@
+using System.Globalization;
+using System.Resources;
 using System.Text.Json.Serialization;
+using Elfie.Serialization;
+using Microsoft.AspNetCore.Localization;
+using Microsoft.AspNetCore.Mvc.Razor;
 using Microsoft.EntityFrameworkCore;
-using TurboAzMVC.Controllers;
+using Microsoft.Extensions.Localization;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddControllersWithViews();
+builder.Services.AddMvc()
+        .AddViewLocalization(LanguageViewLocationExpanderFormat.Suffix)
+        .AddDataAnnotationsLocalization();
+
+
+builder.Services.AddLocalization(o => o.ResourcesPath = "Resources");
+
+
+builder.Services.Configure<RequestLocalizationOptions>(options =>
+{
+    //IEnumerable<CultureInfo> supportedCultures = new CultureInfo[]{ new("en-US"), new("az-AZ"), new("ru-RU") };
+
+    //options.DefaultRequestCulture = new RequestCulture("ru-RU");
+    //options.SupportedUICultures = supportedCultures as CultureInfo[];
+
+    string[] supportedCultures = new[] { "en-US", "az-AZ", "ru-RU" };
+
+    options.SetDefaultCulture(supportedCultures[2])
+        .AddSupportedCultures(supportedCultures)
+        .AddSupportedUICultures(supportedCultures);
+    
+});
+
+
+
 
 builder.Services.AddControllers().AddJsonOptions(x =>
     x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles);
@@ -12,8 +41,11 @@ builder.Services.AddControllers().AddJsonOptions(x =>
 builder.Services.AddDbContext<TurboDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("TurboAzContext")));
 
+
+
 var app = builder.Build();
 
+app.UseRequestLocalization();
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
