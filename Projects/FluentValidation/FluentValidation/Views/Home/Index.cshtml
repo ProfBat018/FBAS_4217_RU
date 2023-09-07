@@ -1,6 +1,25 @@
-﻿@{
+﻿@using FluentValidationExample.Data.Models;
+
+@model User
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
-
+<h1>Register</h1>
+<div asp-validation-summary="ModelOnly"></div>
+<form method="post" asp-action="Register">
+    <label>Name</label>
+    <input type="text" asp-for="Name" />
+    <span asp-validation-for="Name"></span>
+    <br/>
+    <label>Email</label>
+    <input type="text" asp-for="Email" />
+    <span asp-validation-for="Email"></span>
+    <br/>
+    <label>Password</label>
+    <input type="password" asp-for="Password" />
+    <span asp-validation-for="Password"></span>
+    <button type="submit">Register</button>
+</form>
 

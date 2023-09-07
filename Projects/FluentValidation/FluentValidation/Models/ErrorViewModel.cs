@@ -1,4 +1,4 @@
-namespace FluentValidation.Models;
+namespace FluentValidationExample.Models;
 
 public class ErrorViewModel
 {

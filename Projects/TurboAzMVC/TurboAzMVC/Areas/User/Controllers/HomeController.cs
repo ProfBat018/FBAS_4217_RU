@@ -7,7 +7,6 @@ using Microsoft.Extensions.Localization;
 
 namespace TurboAzMVC.Areas.User.Controllers;
 
-
 [Area("User")]
 [AllowAnonymous]
 public class HomeController : Controller
